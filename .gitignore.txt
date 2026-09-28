@@ -1,0 +1,188 @@
+# ═══════════════════════════════════════════════════════════
+# UdyamAI — Git Ignore Rules
+# SIH26092 | Team CodeStorm
+# ═══════════════════════════════════════════════════════════
+
+# ───────────────────────────────────────────────
+# 🔐 SECRETS & ENVIRONMENT VARIABLES
+# ───────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+secrets.json
+credentials.json
+
+# ───────────────────────────────────────────────
+# 🐍 PYTHON
+# ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ───────────────────────────────────────────────
+# 🌐 VIRTUAL ENVIRONMENTS
+# ───────────────────────────────────────────────
+venv/
+env/
+ENV/
+.venv/
+.venv*/
+pythonenv*/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ───────────────────────────────────────────────
+# 💾 DATABASE
+# ───────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+backend/database/app.db
+backend/database/*.db
+*.db-shm
+*.db-wal
+
+# ───────────────────────────────────────────────
+# 📊 DATA & CACHE
+# ───────────────────────────────────────────────
+*.csv
+*.pkl
+*.h5
+*.joblib
+.cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ───────────────────────────────────────────────
+# 🎤 AUDIO / TEMPORARY FILES
+# ───────────────────────────────────────────────
+*.wav
+*.mp3
+*.mp4
+*.m4a
+output.wav
+temp/
+tmp/
+
+# ───────────────────────────────────────────────
+# 📝 LOGS
+# ───────────────────────────────────────────────
+*.log
+logs/
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ───────────────────────────────────────────────
+# 📦 NODE / JAVASCRIPT
+# ───────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# ───────────────────────────────────────────────
+# 🎨 BUILD OUTPUT
+# ───────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+
+# ───────────────────────────────────────────────
+# 💻 IDE / EDITOR
+# ───────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+.vscode-test/
+.project
+.classpath
+.settings/
+
+# ───────────────────────────────────────────────
+# 🖥️ OS FILES
+# ───────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ───────────────────────────────────────────────
+# 🧪 TEST FILES (Local Only)
+# ───────────────────────────────────────────────
+test_voice.py
+main.py
+test_*.py
+!tests/
+!test_api.py
+
+# ───────────────────────────────────────────────
+# 📱 MOBILE / OTHER
+# ───────────────────────────────────────────────
+.expo/
+.expo-shared/
+android/
+ios/
+*.apk
+*.ipa
+
+# ───────────────────────────────────────────────
+# 🔒 KEYS & CERTIFICATES
+# ───────────────────────────────────────────────
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.cer
+*.der
+
+# ───────────────────────────────────────────────
+# 📋 MISC
+# ───────────────────────────────────────────────
+*.bak
+*.old
+*.orig
+*.rej
+*~
+.gradle/

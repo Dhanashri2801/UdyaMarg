@@ -1,0 +1,20 @@
+# ═══════════════════════════════════════════════════════════
+# UdyamAI — Backend Dependencies
+# SIH26092 | Team CodeStorm
+# ═══════════════════════════════════════════════════════════
+
+# ─── Web Framework ───
+Flask==3.0.0
+Flask-CORS==4.0.0
+
+# ─── Environment Variables ───
+python-dotenv==1.0.0
+
+# ─── HTTP Requests (for Bhashini API) ───
+requests==2.31.0
+
+# ─── AI / LLM (Gemini API - Prototype) ───
+google-generativeai==0.3.2
+
+# ─── Data Processing ───
+# (Built-in json, sqlite3 modules are used - no extra packages needed)

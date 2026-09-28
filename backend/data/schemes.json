@@ -1,0 +1,2192 @@
+[
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["SC", "ST", "OBC", "Women", "Minorities", "Ex-Servicemen", "PH", "General"],
+    "state_or_central": "Central",
+    "description": "A credit-linked subsidy scheme aimed at generating self-employment opportunities through establishment of micro-enterprises in non-farm sector.",
+    "simple_description": "A government loan program giving up to 35% cash subsidy on loans taken to start a new shop, workshop, or small manufacturing factory.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Subsidy", "Self-employment support", "Equipment"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "Up to ₹50 Lakhs for Manufacturing, ₹20 Lakhs for Service",
+    "benefits": [
+      "Subsidy up to 35% for Special Categories (SC/ST/OBC/Women/Rural) and 25% for Urban",
+      "Subsidy up to 25% for General Category (Rural) and 15% (Urban)",
+      "Bank financing for remaining 90-95% of project cost",
+      "Manufacturing project support up to ₹50 Lakhs, Service sector up to ₹20 Lakhs"
+    ],
+    "simple_benefits": [
+      "Government pays 15% to 35% of your total loan as a gift (subsidy)",
+      "Bank lends you up to 95% of total project cost",
+      "Get up to ₹50 Lakh loan for factories and ₹20 Lakh for service shops"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "PAN Card",
+      "Project Report / Business Plan",
+      "Educational Qualification Certificate (8th pass for > ₹10L manufacturing)",
+      "Caste / Category Certificate (if SC/ST/OBC/Minority)",
+      "Bank Account details & Passbook"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Prepare Business Project Report", "description": "Draft project report showing machinery, operational costs, and income estimates." },
+      { "step": 2, "title": "Visit PMEGP e-Portal", "description": "Go to official KVIC PMEGP portal (kviconline.gov.in/pmegpeportal)." },
+      { "step": 3, "title": "Fill Online Application Form", "description": "Select implementing agency (KVIC/KVIB/DIC) and enter personal & bank details." },
+      { "step": 4, "title": "Upload Scanned Documents", "description": "Upload Aadhaar, caste certificate, photo, and Project Report." },
+      { "step": 5, "title": "Track Application & Bank Sanction", "description": "Submit form, receive Application ID, and complete mandatory EDP training." }
+    ],
+    "official_source": "https://www.kviconline.gov.in/pmegpeportal/",
+    "tags": ["PMEGP", "Subsidy", "KVIC", "Micro Enterprise", "Self Employment"]
+  },
+  {
+    "id": "standup_india",
+    "name": "Stand-Up India Scheme",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["SC", "ST", "Women"],
+    "state_or_central": "Central",
+    "description": "Facilitates bank loans between ₹10 Lakh and ₹1 Crore to SC/ST and Women borrowers for setting up greenfield enterprises.",
+    "simple_description": "Special bank loan scheme for SC, ST, and Women entrepreneurs giving loans from ₹10 Lakh up to ₹1 Crore for new businesses.",
+    "categories": ["SC", "ST", "Women"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["New business", "Manufacturing", "Service", "Trading", "Agri-allied"],
+    "support_type": ["Business loan", "Working capital", "Equipment", "Business expansion"],
+    "max_project_cost": 10000000,
+    "max_assistance_text": "Bank loan from ₹10 Lakhs up to ₹1 Crore",
+    "benefits": [
+      "Bank loans ranging from ₹10 Lakhs to ₹1 Crore",
+      "Composite loan covering capital expenditure and working capital",
+      "Repayable in 7 years with maximum 18 months moratorium period",
+      "Handholding support through Stand Up India Portal"
+    ],
+    "simple_benefits": [
+      "Get big loans between ₹10 Lakhs and ₹1 Crore for starting a new business",
+      "7 years time to repay loan comfortably with 1.5 years moratorium period"
+    ],
+    "required_documents": [
+      "Aadhaar Card & PAN Card",
+      "SC/ST Category Certificate or Woman Entrepreneur Proof",
+      "Business Address Proof / Land / Rent Agreement",
+      "Project Report detailing capital expenditure & working capital",
+      "Bank statement of last 6 months"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Registration on Standup Mitra Portal", "description": "Visit standupmitra.in and register as borrower." },
+      { "step": 2, "title": "Choose Borrower Category & Preferred Bank", "description": "Select category (SC/ST/Woman) and pick bank branch." },
+      { "step": 3, "title": "Upload Project Proposal", "description": "Attach business plan, identity proof, and category certificate." },
+      { "step": 4, "title": "Bank Processing & Sanction", "description": "Bank evaluates proposal and sanctions loan." }
+    ],
+    "official_source": "https://www.standupmitra.in/",
+    "tags": ["Stand-Up India", "SC/ST", "Women Entrepreneur", "Bank Loan"]
+  },
+  {
+    "id": "pmmy_mudra",
+    "name": "Pradhan Mantri Mudra Yojana (PMMY)",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "state_or_central": "Central",
+    "description": "Provides collateral-free loans up to ₹10 Lakh to micro/small enterprises under Shishu, Kishore, and Tarun categories.",
+    "simple_description": "No-guarantee bank loans up to ₹10 Lakh for small shopkeepers, artisans, street vendors, and micro-business owners.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing", "Artisan"],
+    "support_type": ["Business loan", "Working capital", "Equipment", "Self-employment support"],
+    "max_project_cost": 1000000,
+    "max_assistance_text": "Up to ₹10 Lakhs collateral-free credit",
+    "benefits": [
+      "Shishu: Loans up to ₹50,000 for early stage businesses",
+      "Kishore: Loans above ₹50,000 and up to ₹5 Lakhs",
+      "Tarun: Loans above ₹5 Lakhs and up to ₹10 Lakhs",
+      "No collateral / property security required",
+      "MUDRA Card for working capital withdrawal"
+    ],
+    "simple_benefits": [
+      "No property or house security required (collateral-free)",
+      "Three loan stages: Shishu (₹50k), Kishore (₹5L), Tarun (₹10L)",
+      "Mudra Debit Card for daily working capital"
+    ],
+    "required_documents": [
+      "Mudra Loan Application Form",
+      "Identity Proof (Aadhaar / Voter ID / PAN)",
+      "Address Proof (Utility Bill / Ration Card)",
+      "Quotations for machinery/items to be purchased"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Select Mudra Loan Category", "description": "Choose Shishu (<=50k), Kishore (50k-5L), or Tarun (5L-10L)." },
+      { "step": 2, "title": "Apply at JanSamarth Portal or Bank", "description": "Visit jansamarth.in or nearest commercial bank/MFI." },
+      { "step": 3, "title": "Submit Application & Quotes", "description": "Submit filled form along with identity proof and machinery price quotes." },
+      { "step": 4, "title": "Loan Disbursement", "description": "Bank verifies documents and credits loan to bank account." }
+    ],
+    "official_source": "https://www.mudra.org.in/",
+    "tags": ["Mudra", "PMMY", "Collateral Free Loan", "Micro Finance"]
+  },
+  {
+    "id": "pm_vishwakarma",
+    "name": "PM Vishwakarma Scheme",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Artisans", "Craftspeople", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Provides holistic end-to-end support to artisans and craftspeople in 18 traditional trades including skill training, toolkit incentives, and low-interest loans.",
+    "simple_description": "Government scheme for traditional artisans (carpenters, weavers, tailors, blacksmiths) offering free skill training, ₹15,000 toolkit voucher, and 5% cheap loans.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 75,
+    "business_types": ["Artisan", "Traditional Craft", "Existing business", "Self-employed"],
+    "support_type": ["Skill training", "Equipment", "Subsidy", "Business loan", "Marketing support"],
+    "max_project_cost": 300000,
+    "max_assistance_text": "₹15,000 toolkit voucher + ₹3 Lakh credit at 5% interest",
+    "benefits": [
+      "PM Vishwakarma Certificate and ID Card recognition",
+      "Free basic (5-7 days) & advanced (15 days) skill training with ₹500/day stipend",
+      "Toolkit incentive of ₹15,000 e-voucher",
+      "Collateral-free credit support up to ₹3 Lakhs at 5% concessional interest"
+    ],
+    "simple_benefits": [
+      "Free Official Vishwakarma Identity Card",
+      "Free skill training + ₹500 daily allowance during training",
+      "₹15,000 cash voucher for buying tools",
+      "Loans up to ₹3 Lakh at super low 5% interest rate"
+    ],
+    "required_documents": [
+      "Aadhaar Card (Mobile linked)",
+      "Bank Account Passbook & IFSC code",
+      "Ration Card / Family details",
+      "Gram Panchayat / ULB Trade Verification"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit Nearest CSC Centre", "description": "Go to Common Service Centre with Aadhaar for biometric verification." },
+      { "step": 2, "title": "3-Tier Verification", "description": "Gram Panchayat/ULB verification followed by District Committee screening." },
+      { "step": 3, "title": "Download ID & Receive Training", "description": "Download Vishwakarma Certificate and attend skill training." },
+      { "step": 4, "title": "Toolkit & Loan Disbursement", "description": "Receive ₹15,000 toolkit voucher and apply for 5% credit tranche." }
+    ],
+    "official_source": "https://pmvishwakarma.gov.in/",
+    "tags": ["PM Vishwakarma", "Artisan", "Toolkit", "Skill Training"]
+  },
+  {
+    "id": "cgtmse",
+    "name": "Credit Guarantee Scheme for Micro & Small Enterprises (CGTMSE)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["SC", "ST", "OBC", "Women", "General", "MSEs"],
+    "state_or_central": "Central",
+    "description": "Facilitates collateral-free credit to Micro and Small Enterprises by providing credit guarantee coverage to banks.",
+    "simple_description": "Government scheme where government stands as guarantor for micro/small business bank loans up to ₹5 Crore without collateral.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "New business", "Manufacturing", "Service"],
+    "support_type": ["Business loan", "Working capital", "Business expansion", "Equipment"],
+    "max_project_cost": 50000000,
+    "max_assistance_text": "Collateral-free credit up to ₹5 Crore",
+    "benefits": [
+      "Guarantee coverage up to 85% for Micro enterprises up to ₹5 Lakhs",
+      "Guarantee coverage up to 85% for SC/ST and Women operated enterprises",
+      "Loan coverage up to ₹5 Crore without collateral security or third-party guarantee"
+    ],
+    "simple_benefits": [
+      "Government acts as your guarantor for bank loans up to ₹5 Crore",
+      "Up to 85% guarantee cover for women and SC/ST owners",
+      "No mortgage of property needed"
+    ],
+    "required_documents": [
+      "Udyam MSME Registration Certificate",
+      "PAN Card of Business & Promoter",
+      "Aadhaar Card of Promoter",
+      "Detailed Project Report & Loan Proposal"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Get Udyam MSME Registration", "description": "Register enterprise on udyamregistration.gov.in." },
+      { "step": 2, "title": "Apply at Partnered Bank (MLI)", "description": "Submit loan application at commercial bank or NBFC." },
+      { "step": 3, "title": "Bank Obtains CGTMSE Cover", "description": "Bank applies directly to CGTMSE portal for credit guarantee cover." }
+    ],
+    "official_source": "https://www.cgtmse.in/",
+    "tags": ["CGTMSE", "Credit Guarantee", "Collateral Free", "MSME Loan"]
+  },
+  {
+    "id": "pm_svanidhi",
+    "name": "PM SVANidhi (Prime Minister Street Vendor's AtmaNirbhar Nidhi)",
+    "ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+    "target_beneficiaries": ["Street Vendors", "SC", "ST", "OBC", "Women", "Minorities", "General"],
+    "state_or_central": "Central",
+    "description": "Special micro-credit facility providing affordable working capital loans to street vendors to resume livelihoods.",
+    "simple_description": "Easy collateral-free working capital loan scheme for street vendors starting from ₹10,000 up to ₹50,000 with 7% interest subsidy.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Street Vendor", "Trading", "Service", "Existing business"],
+    "support_type": ["Working capital", "Business loan", "Subsidy"],
+    "max_project_cost": 50000,
+    "max_assistance_text": "Micro loans ₹10,000 (1st tranche), ₹20,000 (2nd), ₹50,000 (3rd)",
+    "benefits": [
+      "First tranche collateral-free working capital loan of ₹10,000",
+      "Second tranche loan of ₹20,000 upon timely repayment",
+      "Third tranche loan of ₹50,000 upon timely repayment of second tranche",
+      "Interest subsidy at 7% per annum credited directly to bank account",
+      "Cashback up to ₹1,200 per year on digital transactions"
+    ],
+    "simple_benefits": [
+      "Get initial ₹10,000 loan without any security deposit",
+      "Get higher loans up to ₹50,000 after timely repayment",
+      "7% interest discount paid back into your bank account",
+      "Cashback bonus for using UPI digital payments"
+    ],
+    "required_documents": [
+      "Aadhaar Card (Mobile linked)",
+      "Certificate of Vending / Identity Card issued by Urban Local Body (ULB)",
+      "Letter of Recommendation (LoR) from ULB (if Certificate not available)",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Check Vending Status / Get LoR", "description": "Verify name in ULB survey list or obtain Letter of Recommendation." },
+      { "step": 2, "title": "Apply on PM SVANidhi Portal", "description": "Visit pmsvanidhi.mohua.gov.in or apply through Common Service Centre." },
+      { "step": 3, "title": "Select Preferred Bank & Loan Amount", "description": "Choose nearby bank branch and apply for 1st tranche loan." },
+      { "step": 4, "title": "Loan Disbursement & Digital Onboarding", "description": "Receive loan amount directly into bank account and start digital UPI payments." }
+    ],
+    "official_source": "https://pmsvanidhi.mohua.gov.in/",
+    "tags": ["PM SVANidhi", "Street Vendor", "Working Capital", "MoHUA"]
+  },
+  {
+    "id": "day_nulm",
+    "name": "Deendayal Antyodaya Yojana - NULM (SEP Loan & Subsidy)",
+    "ministry": "Ministry of Housing and Urban Affairs (MoHUA)",
+    "target_beneficiaries": ["Urban Poor", "SC", "ST", "Women", "Minorities", "OBC", "General"],
+    "state_or_central": "Central",
+    "description": "Self Employment Programme (SEP) component of NULM providing financial assistance and interest subsidy to urban poor for setting up micro-enterprises.",
+    "simple_description": "Financial assistance for urban poor, women, and marginalized groups to start micro-businesses with low-interest bank loans up to ₹2 Lakhs per individual.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Service", "Trading", "Micro Enterprise"],
+    "support_type": ["Business loan", "Subsidy", "Self-employment support"],
+    "max_project_cost": 200000,
+    "max_assistance_text": "Individual loan up to ₹2 Lakhs, SHG Group loan up to ₹10 Lakhs",
+    "benefits": [
+      "Individual micro-enterprise loan up to ₹2 Lakhs",
+      "Self Help Group (SHG) group loan up to ₹10 Lakhs",
+      "Interest subsidy over 7% per annum credited to bank account",
+      "Special additional 3% interest subsidy for women SHGs"
+    ],
+    "simple_benefits": [
+      "Get up to ₹2 Lakh loan for starting your own urban shop/business",
+      "Interest rate above 7% is paid by government as subsidy",
+      "Group loans up to ₹10 Lakh for Women Self-Help Groups"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Proof of Urban Residence / Ration Card",
+      "Income Certificate (Family income < ₹3 Lakh)",
+      "Project Proposal for Micro-Enterprise",
+      "Bank Account Passbook"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Contact NULM City Mission Management Unit", "description": "Approach Municipal Corporation / ULB NULM cell." },
+      { "step": 2, "title": "Fill SEP Application Form", "description": "Submit application form along with income proof and project proposal." },
+      { "step": 3, "title": "Task Force Committee Approval", "description": "ULB task force verifies eligibility and forwards application to bank." },
+      { "step": 4, "title": "Bank Sanction & Interest Subsidy", "description": "Bank disburses loan and interest subsidy is automatically credited." }
+    ],
+    "official_source": "https://nulm.gov.in/",
+    "tags": ["NULM", "DAY-NULM", "Urban Poor", "SEP Loan", "Self Help Group"]
+  },
+  {
+    "id": "day_nrlm",
+    "name": "Deendayal Antyodaya Yojana - NRLM (Mahila Kisan & SHG Micro-Credit)",
+    "ministry": "Ministry of Rural Development (MoRD)",
+    "target_beneficiaries": ["Rural Women", "SHG Members", "SC", "ST", "OBC"],
+    "state_or_central": "Central",
+    "description": "Promotes rural women entrepreneurship through Self Help Groups (SHGs), revolving funds, capital subsidy, and low-interest bank linkage.",
+    "simple_description": "Government scheme for rural women to form Self-Help Groups and get revolving funds, cheap bank loans, and micro-business support.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General"],
+    "states": ["All"],
+    "income_limit": 250000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Artisan", "Agri-allied", "Micro Enterprise", "Trading"],
+    "support_type": ["Business loan", "Subsidy", "Skill training", "Self-employment support"],
+    "max_project_cost": 1000000,
+    "max_assistance_text": "Revolving Fund ₹15,000 + CIF ₹1.5 Lakhs + Bank Linkage",
+    "benefits": [
+      "Revolving Fund (RF) of ₹15,000 to ₹30,000 per SHG",
+      "Community Investment Fund (CIF) up to ₹1.5 Lakhs per SHG",
+      "Collateral-free loan linkage up to ₹20 Lakhs for eligible SHGs",
+      "Interest subvention reducing interest rate to 4% for prompt repayment"
+    ],
+    "simple_benefits": [
+      "Free revolving fund grant for Women Self-Help Groups",
+      "Low interest bank loans reduced to just 4% interest rate",
+      "Collateral-free group loans up to ₹20 Lakhs"
+    ],
+    "required_documents": [
+      "Aadhaar Card of SHG Members",
+      "SHG Resolution Copy & Passbook",
+      "Rural Household Identification Details (SECC Data)",
+      "Bank Account details of SHG"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Form or Join Women SHG", "description": "Form 10-15 member rural women SHG with Village Organization (VO)." },
+      { "step": 2, "title": "Open SHG Bank Account", "description": "Open savings account in commercial or regional rural bank." },
+      { "step": 3, "title": "Apply for RF & CIF Grants", "description": "Submit application to Block Program Management Unit (BPMU)." },
+      { "step": 4, "title": "Bank Credit Linkage", "description": "Receive collateral-free loan linkage for group micro-businesses." }
+    ],
+    "official_source": "https://nrlm.gov.in/",
+    "tags": ["NRLM", "DAY-NRLM", "SHG", "Rural Women", "Interest Subvention"]
+  },
+  {
+    "id": "sfurti",
+    "name": "Scheme of Fund for Regeneration of Traditional Industries (SFURTI)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Traditional Artisans", "Craftspeople", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Organizes traditional artisans and industries into clusters to make them competitive and provide long-term sustainability through modern equipment and infrastructure.",
+    "simple_description": "Government scheme that builds common factory centers, provides modern tools, and marketing help to groups of traditional artisans and rural craft makers.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["Artisan", "Traditional Craft", "Manufacturing", "Existing business"],
+    "support_type": ["Equipment", "Skill training", "Marketing support", "Subsidy"],
+    "max_project_cost": 50000000,
+    "max_assistance_text": "Up to ₹2.5 Crore for Regular Clusters, ₹5 Crore for Major Clusters",
+    "benefits": [
+      "100% financial assistance for soft interventions (training, exposures, design)",
+      "90% grant support for Common Facility Centres (CFCs), machinery, and raw material banks",
+      "Up to ₹2.5 Crore grant for clusters up to 500 artisans",
+      "Up to ₹5 Crore grant for major clusters with over 500 artisans"
+    ],
+    "simple_benefits": [
+      "Government builds common machinery centers for artisan groups",
+      "90% to 100% grant funding for modern tools, designs, and training",
+      "Direct marketing support at national exhibitions"
+    ],
+    "required_documents": [
+      "Artisan Group / NGO / Trust Registration Certificate",
+      "Detailed Cluster Development Plan (DPR)",
+      "List of Participating Artisans with Aadhaar details",
+      "Land availability proof for Common Facility Centre"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Form Nodal/Implementing Agency", "description": "Form registered artisan SPV, NGO, or Government agency." },
+      { "step": 2, "title": "Submit Concept Proposal", "description": "Submit proposal on SFURTI portal (sfurti.msme.gov.in)." },
+      { "step": 3, "title": "DPR Approval by Nodal Agency", "description": "KVIC/COIR Board reviews and approves Cluster DPR." },
+      { "step": 4, "title": "Establishment of Common Facility Centre", "description": "Sanction of grant and construction of shared machinery unit." }
+    ],
+    "official_source": "https://sfurti.msme.gov.in/",
+    "tags": ["SFURTI", "Cluster Scheme", "Artisans", "Common Facility", "MoMSME"]
+  },
+  {
+    "id": "aspire",
+    "name": "ASPIRE (Scheme for Promotion of Innovation, Rural Industry & Entrepreneurship)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Rural Entrepreneurs", "Youth", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Sets up Livelihood Business Incubators (LBI) and Technology Business Incubators (TBI) to create new jobs and promote agro-rural entrepreneurship.",
+    "simple_description": "Government scheme providing training, incubation, machinery, and seed funds to start innovative agro-based and rural enterprises.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 50,
+    "business_types": ["New business", "Agri-allied", "Manufacturing", "Service"],
+    "support_type": ["Skill training", "Equipment", "Business loan", "Self-employment support"],
+    "max_project_cost": 10000000,
+    "max_assistance_text": "LBI Grant up to ₹1 Crore, One-time seed capital up to ₹1 Crore",
+    "benefits": [
+      "100% grant assistance up to ₹1 Crore for setting up Livelihood Incubators (LBI)",
+      "Seed capital assistance up to ₹1 Crore for innovative rural startups",
+      "Hands-on technical training on modern agro-processing machinery"
+    ],
+    "simple_benefits": [
+      "Free practical training on modern food processing and farm machinery",
+      "Seed money support to start rural innovation businesses",
+      "Access to incubator machinery without buying equipment yourself"
+    ],
+    "required_documents": [
+      "Applicant Aadhaar & Educational Credentials",
+      "Business Plan Proposal",
+      "Registration Certificate (if startup/firm)",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Identify Nearest LBI / TBI Centre", "description": "Locate ASPIRE incubator center via MSME portal." },
+      { "step": 2, "title": "Submit Rural Innovation Idea", "description": "Apply for incubation training and business guidance." },
+      { "step": 3, "title": "Training & Prototype Development", "description": "Utilize LBI machinery for production and testing." },
+      { "step": 4, "title": "Seed Capital Grant Sanction", "description": "Receive seed capital grant for commercial launch." }
+    ],
+    "official_source": "https://aspire.msme.gov.in/",
+    "tags": ["ASPIRE", "Rural Entrepreneurship", "Agro Incubator", "MoMSME"]
+  },
+  {
+    "id": "pmfme",
+    "name": "PM Formalisation of Micro Food Processing Enterprises (PMFME)",
+    "ministry": "Ministry of Food Processing Industries (MoFPI)",
+    "target_beneficiaries": ["Micro Food Processors", "SC", "ST", "OBC", "Women", "SHG Members"],
+    "state_or_central": "Central",
+    "description": "Provides financial, technical, and business support for upgrading existing micro food processing units and establishing new individual/group units under ODOP.",
+    "simple_description": "Scheme for small food processing businesses (pickle, spices, flour, snacks, fruit items) offering 35% credit-linked subsidy up to ₹10 Lakhs.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Manufacturing", "Agri-allied"],
+    "support_type": ["Subsidy", "Business loan", "Equipment", "Marketing support"],
+    "max_project_cost": 3000000,
+    "max_assistance_text": "35% Credit-linked Subsidy up to ₹10 Lakhs per unit",
+    "benefits": [
+      "Credit-linked capital subsidy at 35% of eligible project cost up to ₹10 Lakhs",
+      "Seed capital of ₹40,000 per SHG member for working capital and small tools",
+      "Grant support for One District One Product (ODOP) branding & marketing",
+      "Free FSSAI registration and food safety technical training"
+    ],
+    "simple_benefits": [
+      "Government pays 35% of your food processing machinery loan (up to ₹10 Lakh gift)",
+      "₹40,000 seed grant for women SHG food makers",
+      "Free FSSAI food license assistance and product packaging help"
+    ],
+    "required_documents": [
+      "Aadhaar & PAN Card",
+      "Proof of Ownership / Lease of Food Unit",
+      "FSSAI License / Registration (or application acknowledgement)",
+      "Bank Account statement of last 6 months",
+      "Detailed Project Report (DPR) for food processing unit"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on PMFME Portal", "description": "Visit pmfme.mofpi.gov.in and create user ID." },
+      { "step": 2, "title": "Fill Online Application", "description": "Select ODOP product category and enter project details." },
+      { "step": 3, "title": "District Resource Person (DRP) Assistance", "description": "DRP helps in DPR preparation and bank loan filing." },
+      { "step": 4, "title": "Bank Sanction & Subsidy Credit", "description": "Bank sanctions loan and 35% subsidy is transferred to subsidy account." }
+    ],
+    "official_source": "https://pmfme.mofpi.gov.in/",
+    "tags": ["PMFME", "Food Processing", "ODOP", "Subsidy", "MoFPI"]
+  },
+  {
+    "id": "vcf_sc",
+    "name": "Venture Capital Fund for Scheduled Castes (VCF-SC)",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["SC Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Concessional finance fund to promote entrepreneurship among Scheduled Castes who are orienting towards innovation and growth.",
+    "simple_description": "Venture capital funding and equity support up to ₹15 Crore for Scheduled Caste (SC) entrepreneurs starting scalable companies.",
+    "categories": ["SC"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Business expansion", "Working capital"],
+    "max_project_cost": 150000000,
+    "max_assistance_text": "Financial assistance from ₹20 Lakhs up to ₹15 Crore",
+    "benefits": [
+      "Equity / Compulsorily Convertible Preference Shares (CCPS) investment up to ₹15 Crore",
+      "Low concessional interest rate of 4% to 8% per annum",
+      "Promoters holding requirement: Minimum 51% SC ownership in company",
+      "Long term tenure up to 7 years with moratorium"
+    ],
+    "simple_benefits": [
+      "Get big capital funding from ₹20 Lakh up to ₹15 Crore for SC-owned companies",
+      "Very low interest rate between 4% and 8%",
+      "7 years repayment tenure"
+    ],
+    "required_documents": [
+      "SC Category Certificate of Promoters",
+      "Company Incorporation Certificate (CIN)",
+      "Proof of 51% SC Equity Shareholding",
+      "Detailed Business Plan & Financial Audit Reports",
+      "PAN Card & Aadhaar of SC Directors"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Incorporate Company (Pvt Ltd / LLP)", "description": "Ensure at least 51% equity held by SC promoters." },
+      { "step": 2, "title": "Submit Proposal on IFCI VCF-SC Portal", "description": "Visit vcfsc.in and upload pitch deck and business plan." },
+      { "step": 3, "title": "Due Diligence by IFCI", "description": "IFCI conducts financial appraisal and site verification." },
+      { "step": 4, "title": "Sanction & Investment Disbursement", "description": "VCF-SC disburses equity / loan capital into company bank account." }
+    ],
+    "official_source": "https://vcfsc.in/",
+    "tags": ["VCF-SC", "SC Entrepreneur", "Venture Capital", "IFCI", "MoSJE"]
+  },
+  {
+    "id": "nsfdc_schemes",
+    "name": "NSFDC Term Loan & Micro Credit Schemes",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["SC Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides concessional loans to SC persons living below double the poverty line for income-generating self-employment projects.",
+    "simple_description": "Low-interest loan scheme specifically for Scheduled Caste (SC) individuals to start small shops, transport, or service businesses at 6% interest.",
+    "categories": ["SC"],
+    "states": ["All"],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing", "Artisan"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support", "Equipment"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "Term loans up to ₹50 Lakhs at 6% interest rate",
+    "benefits": [
+      "Term Loan up to ₹50 Lakhs for unit establishment at 6% interest rate",
+      "Micro Credit Scheme (MCS) up to ₹140,000 at 5% interest rate",
+      "Mahila Samriddhi Yojana up to ₹140,000 for SC women at 4% interest rate",
+      "Repayment tenure up to 5 to 10 years including moratorium"
+    ],
+    "simple_benefits": [
+      "Low interest rate between 4% and 6% for SC business owners",
+      "Loans up to ₹50 Lakh for large units and ₹1.4 Lakh for small micro-shops",
+      "Special discount interest rate for SC women"
+    ],
+    "required_documents": [
+      "SC Caste Certificate issued by competent authority",
+      "Annual Family Income Certificate (< ₹3 Lakh)",
+      "Aadhaar Card & Address Proof",
+      "Project Cost Estimate / Equipment Quotation"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Approach State Channelizing Agency (SCA)", "description": "Visit State SC Development Corporation office or RRB bank." },
+      { "step": 2, "title": "Submit NSFDC Application Form", "description": "Attach caste proof, income certificate, and project proposal." },
+      { "step": 3, "title": "SCA Appraisal & Forwarding", "description": "State agency verifies credentials and sanctions loan." },
+      { "step": 4, "title": "Loan Disbursement at Concessional Rate", "description": "Funds disbursed at 4%-6% interest rate." }
+    ],
+    "official_source": "https://nsfdc.nic.in/",
+    "tags": ["NSFDC", "SC Loan", "Concessional Credit", "MoSJE"]
+  },
+  {
+    "id": "nstfdc_schemes",
+    "name": "NSTFDC Term Loan & Adivasi Mahila Sashaktikaran Yojana",
+    "ministry": "Ministry of Tribal Affairs (MoTA)",
+    "target_beneficiaries": ["ST Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides concessional financial assistance to Scheduled Tribes (ST) for setting up self-employment ventures in agriculture, trade, and industry.",
+    "simple_description": "Exclusive cheap loan scheme for Scheduled Tribe (ST) individuals and women giving loans up to ₹50 Lakhs at 4% to 6% interest.",
+    "categories": ["ST"],
+    "states": ["All"],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Agri-allied", "Artisan", "Trading", "Service"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support", "Equipment"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "Loans up to ₹50 Lakhs (Term Loan) / ₹2 Lakhs (Adivasi Mahila Yojana at 4%)",
+    "benefits": [
+      "Term Loan up to ₹50 Lakhs at concessional interest rate of 6%",
+      "Adivasi Mahila Sashaktikaran Yojana loan up to ₹2 Lakhs for ST women at 4% interest",
+      "Micro Credit Scheme up to ₹1.5 Lakhs per individual at 5% interest",
+      "Up to 90% project cost financed by NSTFDC"
+    ],
+    "simple_benefits": [
+      "90% of your business project cost funded by government",
+      "Super low 4% interest rate for ST women entrepreneurs",
+      "Loans up to ₹50 Lakhs with 5 years repayment time"
+    ],
+    "required_documents": [
+      "ST Tribe Certificate issued by Tehsildar / District Magistrate",
+      "Family Income Certificate",
+      "Aadhaar Card & Bank Passbook",
+      "Business Activity Proposal"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit State Tribal Development Corporation", "description": "Contact State Channelizing Agency (SCA) for ST development." },
+      { "step": 2, "title": "Fill NSTFDC Application Form", "description": "Submit ST proof, income certificate, and business quote." },
+      { "step": 3, "title": "SCA Sanction & Fund Release", "description": "Agency inspects unit and releases concessional credit." }
+    ],
+    "official_source": "https://nstfdc.tribal.gov.in/",
+    "tags": ["NSTFDC", "ST Loan", "Tribal Affairs", "Adivasi Mahila"]
+  },
+  {
+    "id": "nbcfdc_schemes",
+    "name": "NBCFDC Term Loan & Swarnima Scheme for OBC Women",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["OBC Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides concessional financial assistance to eligible Other Backward Classes (OBC) for starting self-employment enterprises.",
+    "simple_description": "Concessional bank loan scheme for OBC business owners giving loans up to ₹15 Lakhs at 6% interest and ₹2 Lakhs at 5% for OBC women.",
+    "categories": ["OBC"],
+    "states": ["All"],
+    "income_limit": 300000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing", "Artisan"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support", "Subsidy"],
+    "max_project_cost": 1500000,
+    "max_assistance_text": "Term Loan up to ₹15 Lakhs at 6% / Swarnima Yojana up to ₹2 Lakhs at 5%",
+    "benefits": [
+      "General Term Loan up to ₹15 Lakhs per beneficiary at 6% interest rate",
+      "Swarnima Scheme for OBC Women up to ₹2 Lakhs per beneficiary at 5% interest rate",
+      "Micro Finance Scheme up to ₹1.25 Lakhs per individual at 5% interest",
+      "Finances up to 85-90% of project cost"
+    ],
+    "simple_benefits": [
+      "Government covers up to 90% of your business loan cost",
+      "OBC women get loans up to ₹2 Lakh at only 5% interest rate",
+      "Comfortable repayment terms up to 8 years"
+    ],
+    "required_documents": [
+      "OBC Caste Certificate issued by competent authority",
+      "Income Certificate (Family income < ₹3 Lakh)",
+      "Aadhaar Card & Residential Proof",
+      "Project Proposal / Machinery Quotation"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at State OBC Finance Corporation", "description": "Visit State Backward Classes Development Corporation." },
+      { "step": 2, "title": "Submit Application with Documents", "description": "Provide OBC certificate, income certificate, and project details." },
+      { "step": 3, "title": "Sanction & Concessional Disbursement", "description": "Receive loan at 5%-6% interest rate." }
+    ],
+    "official_source": "https://nbcfdc.gov.in/",
+    "tags": ["NBCFDC", "OBC Loan", "Swarnima Scheme", "MoSJE"]
+  },
+  {
+    "id": "nmdfc_schemes",
+    "name": "NMDFC Term Loan & Virasat Scheme for Minorities",
+    "ministry": "Ministry of Minority Affairs (MoMA)",
+    "target_beneficiaries": ["Minorities", "Muslims", "Christians", "Sikhs", "Buddhists", "Jains", "Parsis"],
+    "state_or_central": "Central",
+    "description": "Provides concessional loan schemes to notified religious minority communities for self-employment and artisan crafts.",
+    "simple_description": "Concessional low-interest loan scheme for Minority community entrepreneurs (Muslims, Sikhs, Christians, Jains, Buddhists, Parsis) up to ₹20 Lakhs at 6%.",
+    "categories": ["Minorities"],
+    "states": ["All"],
+    "income_limit": 600000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Artisan", "Service", "Trading", "Manufacturing"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support", "Equipment"],
+    "max_project_cost": 2000000,
+    "max_assistance_text": "Term Loan up to ₹20 Lakhs (Credit Line 1 at 6% / Line 2 at 8%)",
+    "benefits": [
+      "Credit Line 1 (Income < ₹98k Rural / ₹1.2L Urban): Loans up to ₹20 Lakhs at 6% interest",
+      "Credit Line 2 (Income up to ₹6 Lakhs): Loans up to ₹30 Lakhs for males at 8%, females at 6%",
+      "Virasat Scheme for Minority Artisans: Loans up to ₹10 Lakhs at 5% interest rate",
+      "Mahila Samriddhi Scheme for Minority Women micro-credit up to ₹1 Lakh at 4%"
+    ],
+    "simple_benefits": [
+      "Low interest loans (4% to 6%) for minority business owners and artisans",
+      "Loans up to ₹20 Lakhs for general business and ₹10 Lakhs for traditional crafts",
+      "Special cheap credit rates for minority women"
+    ],
+    "required_documents": [
+      "Self-Declaration of Minority Religion / Community Proof",
+      "Family Income Certificate",
+      "Aadhaar Card & PAN Card",
+      "Business Plan / Equipment Quotes"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Approach State Channelizing Agency (SCA)", "description": "Contact State Minority Financial Corporation." },
+      { "step": 2, "title": "Fill NMDFC Application Form", "description": "Attach minority declaration, income certificate, and project proposal." },
+      { "step": 3, "title": "SCA Processing & Loan Disbursement", "description": "Receive loan funds directly into bank account." }
+    ],
+    "official_source": "http://www.nmdfc.org/",
+    "tags": ["NMDFC", "Minority Affairs", "Virasat Scheme", "Concessional Loan"]
+  },
+  {
+    "id": "nhfdc_schemes",
+    "name": "Divyangjan Swavalamban Scheme (NHFDC Self-Employment)",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["Persons with Disabilities (PwD)", "Divyangjan"],
+    "state_or_central": "Central",
+    "description": "Provides concessional loans to Persons with Disabilities (PwD) for setting up self-employment ventures, shops, and micro-enterprises.",
+    "simple_description": "Special loan scheme for Persons with Disabilities (Divyangjan) giving business loans up to ₹50 Lakhs at cheap interest rates (5% to 9%).",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing", "Artisan"],
+    "support_type": ["Business loan", "Working capital", "Equipment", "Self-employment support"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "Concessional loans up to ₹50 Lakhs (5% to 9% interest)",
+    "benefits": [
+      "Loans up to ₹50,000 at 5% interest per annum",
+      "Loans above ₹50,000 up to ₹5 Lakhs at 6% interest per annum",
+      "Loans above ₹5 Lakhs up to ₹15 Lakhs at 7% interest per annum",
+      "Special 1% rebate in interest rate for Divyangjan Women entrepreneurs"
+    ],
+    "simple_benefits": [
+      "Very cheap interest rates (5% to 7%) for persons with disability",
+      "Additional 1% discount in interest rate for disabled women",
+      "Loans up to ₹50 Lakhs to start any micro-business or shop"
+    ],
+    "required_documents": [
+      "Disability Certificate (UDID Card showing 40% or more disability)",
+      "Aadhaar Card & Address Proof",
+      "Educational / Skill Certificate (if applicable)",
+      "Project Cost Estimate / Quotation"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at State Channelizing Agency or Bank", "description": "Approach State PwD Corporation or public bank." },
+      { "step": 2, "title": "Submit Application & UDID Card", "description": "Attach UDID disability certificate and project estimate." },
+      { "step": 3, "title": "Sanction & Rebated Credit Release", "description": "Receive loan disbursement with interest rebate." }
+    ],
+    "official_source": "http://www.nhfdc.nic.in/",
+    "tags": ["NHFDC", "Divyangjan", "PwD Loan", "Disability Scheme"]
+  },
+  {
+    "id": "sisfs",
+    "name": "Startup India Seed Fund Scheme (SISFS)",
+    "ministry": "Ministry of Commerce and Industry (DPIIT)",
+    "target_beneficiaries": ["Startups", "Youth", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Provides financial assistance to startups for proof of concept, prototype development, product trials, market entry and commercialization.",
+    "simple_description": "Government grant up to ₹20 Lakhs and debt funding up to ₹50 Lakhs for innovative early-stage startups.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Service", "Manufacturing", "Trading"],
+    "support_type": ["Subsidy", "Business loan", "Business expansion", "Self-employment support"],
+    "max_project_cost": 7000000,
+    "max_assistance_text": "Grant up to ₹20 Lakhs (Proof of Concept) + Debt up to ₹50 Lakhs",
+    "benefits": [
+      "Grant up to ₹20 Lakhs for validation of Proof of Concept, prototype development, and product trials",
+      "Investment up to ₹50 Lakhs for market entry, commercialization, or scale-up through convertible debentures or debt",
+      "No collateral required for seed fund support",
+      "Disbursement through selected incubator partners across India"
+    ],
+    "simple_benefits": [
+      "Free grant up to ₹20 Lakhs to build your prototype product",
+      "Additional ₹50 Lakhs loan funding to launch and market your business",
+      "Zero collateral or home security needed"
+    ],
+    "required_documents": [
+      "DPIIT Startup Recognition Certificate",
+      "Incorporation Certificate (Pvt Ltd / LLP incorporated within 2 years)",
+      "Pitch Deck & Prototype Proposal",
+      "PAN Card & Aadhaar of Founder Directors"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Get DPIIT Recognition", "description": "Register startup on startupindia.gov.in and obtain DPIIT certificate." },
+      { "step": 2, "title": "Apply on SISFS Portal", "description": "Log into seedfund.startupindia.gov.in and choose incubator." },
+      { "step": 3, "title": "Incubator Pitching & Selection", "description": "Present prototype idea before incubator selection committee." },
+      { "step": 4, "title": "Grant & Debt Disbursement", "description": "Incubator sanctions seed grant directly to startup bank account." }
+    ],
+    "official_source": "https://seedfund.startupindia.gov.in/",
+    "tags": ["Startup India", "SISFS", "Seed Fund", "DPIIT", "Grant"]
+  },
+  {
+    "id": "samarth_textile",
+    "name": "SAMARTH Scheme for Capacity Building in Textile Sector",
+    "ministry": "Ministry of Textiles",
+    "target_beneficiaries": ["Weavers", "Artisans", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Demand-driven placement-oriented skilling program to incentivize and supplement the efforts of the industry in creating jobs in organized textile and unorganized handicraft sectors.",
+    "simple_description": "Free skill training and job/business placement scheme for weavers, tailors, and textile workers with stipend and certified credentials.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 50,
+    "business_types": ["Artisan", "New business", "Manufacturing", "Service"],
+    "support_type": ["Skill training", "Equipment", "Self-employment support"],
+    "max_project_cost": 50000,
+    "max_assistance_text": "100% Free Skill Training + Toolkits + Wage Placement",
+    "benefits": [
+      "100% free NSQF-aligned skill training in textile, weaving, and garmenting trades",
+      "Aadhaar-enabled biometric attendance and certified assessment",
+      "Guaranteed wage placement assistance or self-employment credit linkage",
+      "Special focus on women, SC/ST, and traditional handloom workers"
+    ],
+    "simple_benefits": [
+      "Completely free professional training in tailoring, weaving, and fabric production",
+      "Government certificate recognized across India",
+      "Direct job placement or help in getting loans for opening tailoring shops"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Bank Account details",
+      "Passport size photographs",
+      "Caste Certificate (if claiming SC/ST/OBC quota)"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Locate SAMARTH Training Centre", "description": "Search accredited training center on samarth-texmin.gov.in." },
+      { "step": 2, "title": "Enroll in Textile Skill Trade", "description": "Submit Aadhaar and select course (Apparel, Weaving, Handicraft)." },
+      { "step": 3, "title": "Complete Training & Assessment", "description": "Attend practical biometric classes and pass assessment." },
+      { "step": 4, "title": "Placement / Entrepreneur Support", "description": "Receive job placement or self-employment loan handholding." }
+    ],
+    "official_source": "https://samarth-texmin.gov.in/",
+    "tags": ["SAMARTH", "Textile Skilling", "Weavers", "Handloom", "Tailoring"]
+  },
+  {
+    "id": "nskfdc_swachhta",
+    "name": "NSKFDC Swachhta Udyami Yojana",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["Safai Karamcharis", "Manual Scavengers", "SC"],
+    "state_or_central": "Central",
+    "description": "Provides concessional loan assistance to Safai Karamcharis and rehabilitated manual scavengers for procurement of sanitation machines and vehicles.",
+    "simple_description": "Special loan and capital subsidy scheme for Safai Karamcharis to buy sanitation machinery, jetting machines, and commercial garbage vehicles.",
+    "categories": ["SC", "ST"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Service", "Trading"],
+    "support_type": ["Business loan", "Subsidy", "Equipment", "Self-employment support"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "Loan up to ₹50 Lakhs at 4% interest + Capital Subsidy up to ₹3.25 Lakhs",
+    "benefits": [
+      "Financial assistance up to ₹50 Lakhs for mechanized cleaning equipment and vehicles",
+      "Concessional interest rate of 4% per annum for sanitation machinery loans",
+      "Capital subsidy up to ₹3.25 Lakhs for rehabilitated manual scavengers",
+      "Repayment period up to 10 years with 6 months moratorium"
+    ],
+    "simple_benefits": [
+      "Buy commercial sanitation vehicles and jetting machines at 4% interest",
+      "Cash capital subsidy up to ₹3.25 Lakhs",
+      "Long 10 years time to repay loan"
+    ],
+    "required_documents": [
+      "Safai Karamchari Certificate / Occupation ID proof",
+      "Aadhaar Card & PAN Card",
+      "Vehicle / Sanitation Machine Purchase Quotation",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at State Channelizing Agency", "description": "Approach State Safai Karamchari Finance Corporation." },
+      { "step": 2, "title": "Submit Machine Quotations", "description": "Attach occupation proof and machine vendor quotes." },
+      { "step": 3, "title": "Sanction & Subsidy Transfer", "description": "Receive low-interest loan and capital subsidy." }
+    ],
+    "official_source": "https://nskfdc.nic.in/",
+    "tags": ["NSKFDC", "Swachhta Udyami", "Safai Karamchari", "Sanitation Machines"]
+  },
+  {
+    "id": "pmmsy_fisheries",
+    "name": "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+    "ministry": "Ministry of Fisheries, Animal Husbandry and Dairying",
+    "target_beneficiaries": ["Fishers", "Fish Farmers", "SC", "ST", "Women", "OBC", "General"],
+    "state_or_central": "Central",
+    "description": "Scheme to bring Blue Revolution through sustainable development of fisheries sector with 40% to 60% capital subsidy for beneficiaries.",
+    "simple_description": "Government scheme for fish farming, biofloc units, fish transport vehicles, and fish shops giving 40% to 60% subsidy.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Agri-allied", "Manufacturing", "Trading"],
+    "support_type": ["Subsidy", "Business loan", "Equipment", "Self-employment support"],
+    "max_project_cost": 5000000,
+    "max_assistance_text": "60% Subsidy for SC/ST/Women, 40% Subsidy for General",
+    "benefits": [
+      "60% financial subsidy for SC, ST, and Women beneficiaries",
+      "40% financial subsidy for General category beneficiaries",
+      "Support for biofloc units, re-circulatory aquaculture (RAS), motorboats, and cold storage vans",
+      "Kisan Credit Card (KCC) for fisheries working capital at 4% effective interest"
+    ],
+    "simple_benefits": [
+      "Government pays 60% of your fish farming project cost as a free grant for SC/ST/Women",
+      "40% grant for General category applicants",
+      "Kisan Credit Card facility for daily feed and operational expenses"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Ownership / Lease Agreement for pond/aquaculture unit",
+      "Caste Certificate (if SC/ST)",
+      "Detailed Project Report (DPR) & Equipment Quotation",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Contact District Fisheries Office", "description": "Visit District Fisheries Development Officer (DFDO)." },
+      { "step": 2, "title": "Submit PMMSY Project Proposal", "description": "Fill application on pmmsy.dof.gov.in portal." },
+      { "step": 3, "title": "State Approval & Ground Inspection", "description": "Fisheries officer verifies pond site and sanctions project." },
+      { "step": 4, "title": "Subsidy Release into Bank Account", "description": "Construct unit and receive 40%-60% subsidy directly." }
+    ],
+    "official_source": "https://pmmsy.dof.gov.in/",
+    "tags": ["PMMSY", "Fisheries", "Aquaculture", "Biofloc", "Subsidy"]
+  },
+  {
+    "id": "pm_fme_shg",
+    "name": "PMFME Seed Capital for SHG Food Processing Members",
+    "ministry": "Ministry of Food Processing Industries (MoFPI)",
+    "target_beneficiaries": ["Women SHG Members", "Micro Food Processors"],
+    "state_or_central": "Central",
+    "description": "Provides seed capital assistance of ₹40,000 per member of SHG engaged in food processing for working capital and small tools.",
+    "simple_description": "Direct seed grant of ₹40,000 for women Self-Help Group members making food products like pickles, papad, spices, and snacks.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General"],
+    "states": ["All"],
+    "income_limit": 250000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["Existing business", "New business", "Manufacturing", "Artisan"],
+    "support_type": ["Subsidy", "Working capital", "Equipment"],
+    "max_project_cost": 40000,
+    "max_assistance_text": "₹40,000 Seed Grant per SHG Member",
+    "benefits": [
+      "₹40,000 direct seed capital grant per eligible SHG food processing member",
+      "Grant provided to SHG federation for onward disbursal as loan/grant to members",
+      "Covers purchase of small food equipment, packaging containers, and raw materials"
+    ],
+    "simple_benefits": [
+      "₹40,000 cash seed grant for buying food making tools and raw materials",
+      "No bank loan repayment required for grant portion"
+    ],
+    "required_documents": [
+      "SHG Membership Copy & Resolution",
+      "Aadhaar Card of Member",
+      "Bank Passbook of SHG Member",
+      "Proof of Food Processing Activity"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply through SRLM / NULM Community Resource Person", "description": "Submit request through SHG Village Organization." },
+      { "step": 2, "title": "Verification by District Resource Person", "description": "DRP inspects food processing activity." },
+      { "step": 3, "title": "Seed Capital Transfer", "description": "State Mission transfers ₹40,000 grant per member." }
+    ],
+    "official_source": "https://pmfme.mofpi.gov.in/",
+    "tags": ["PMFME", "Seed Capital", "SHG Women", "Food Processing"]
+  },
+  {
+    "id": "trifed_tech_tribals",
+    "name": "TRIFED Tech for Tribals & Van Dhan Vikas Yojana",
+    "ministry": "Ministry of Tribal Affairs (MoTA)",
+    "target_beneficiaries": ["ST Forest Dwellers", "Tribal Artisans"],
+    "state_or_central": "Central",
+    "description": "Establishes Van Dhan Vikas Kendras (VDVK) to train tribal gatherers in value addition, branding, and marketing of Minor Forest Produce (MFP).",
+    "simple_description": "Government scheme for ST tribal forest workers offering ₹15 Lakh grant per 300-member Kendra for forest produce value-addition tools.",
+    "categories": ["ST"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Artisan", "Agri-allied", "Manufacturing", "Trading"],
+    "support_type": ["Equipment", "Skill training", "Subsidy", "Marketing support"],
+    "max_project_cost": 1500000,
+    "max_assistance_text": "₹15 Lakh Grant per Van Dhan Vikas Kendra (300 Tribals)",
+    "benefits": [
+      "₹15 Lakh 100% grant per Van Dhan Vikas Kendra (15 SHGs / 300 tribal gatherers)",
+      "Free equipment for honey processing, amla processing, mahua products, and herbal items",
+      "Branding and national marketing support through Tribes India retail outlets"
+    ],
+    "simple_benefits": [
+      "₹15 Lakh grant for tribal group processing centers",
+      "Free tools and machinery for forest products",
+      "Direct sale of products in Tribes India government stores"
+    ],
+    "required_documents": [
+      "ST Tribe Certificate",
+      "Gram Sabha Resolution for VDVK formation",
+      "Aadhaar details of Tribal SHG members",
+      "Bank Account details of VDVK"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Form Tribal SHG / VDVK Group", "description": "Gather 15 tribal SHGs (300 members) with Gram Sabha approval." },
+      { "step": 2, "title": "Submit Proposal to State Nodal Agency", "description": "Apply to State Tribal Welfare Department / TRIFED." },
+      { "step": 3, "title": "Grant Release & Toolkit Distribution", "description": "Receive ₹15 Lakh grant for equipment and processing center." }
+    ],
+    "official_source": "https://trifed.tribal.gov.in/",
+    "tags": ["TRIFED", "Van Dhan", "ST Tribal", "Forest Produce", "MoTA"]
+  },
+  {
+    "id": "coir_vikas_yojana",
+    "name": "Coir Vikas Yojana & Mahila Coir Yojana",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Coir Workers", "Women", "SC", "ST", "OBC"],
+    "state_or_central": "Central",
+    "description": "Provides spinning ratts, coir processing machinery, and 75% subsidy to rural women artisans in coir producing states.",
+    "simple_description": "Government scheme for coconut coir workers providing motorized spinning machines at 75% grant subsidy.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["Artisan", "New business", "Manufacturing"],
+    "support_type": ["Equipment", "Subsidy", "Skill training"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "75% Subsidy on Coir Spinning Equipment",
+    "benefits": [
+      "75% grant subsidy on motorized coir spinning ratts and machinery",
+      "Free 2-month skill development training with stipend of ₹3,000 per month",
+      "Financial assistance up to ₹5 Lakhs for establishing coir micro-units"
+    ],
+    "simple_benefits": [
+      "75% discount on coir spinning machinery",
+      "Free 2 months training with monthly stipend allowance",
+      "Help to start coir mat and rope making units"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Coir Artisan ID / Rural Certificate",
+      "Bank Account Passbook",
+      "Equipment Price Quote"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at Coir Board Regional Office", "description": "Visit nearby Coir Board office or coirboard.gov.in." },
+      { "step": 2, "title": "Undergo Coir Skill Training", "description": "Complete 2-month motorized ratt spinning training." },
+      { "step": 3, "title": "Receive 75% Subsidized Equipment", "description": "Get motorized spinning equipment with 75% grant." }
+    ],
+    "official_source": "http://coirboard.gov.in/",
+    "tags": ["Coir Board", "Mahila Coir Yojana", "Artisan", "Subsidy"]
+  },
+  {
+    "id": "nssh_scheme",
+    "name": "National SC-ST Hub (NSSH) Support Scheme",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["SC Entrepreneurs", "ST Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides capacity building, vendor development, 80% subsidy on testing/certifications, and 4% mandatory procurement quota support from CPSEs to SC/ST MSEs.",
+    "simple_description": "Government scheme helping SC/ST business owners get 80% subsidy on machinery testing, ISO registration, and direct government procurement orders.",
+    "categories": ["SC", "ST"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Marketing support", "Subsidy", "Skill training", "Equipment"],
+    "max_project_cost": 1000000,
+    "max_assistance_text": "80% Subsidy on certifications, testing, and stall charges",
+    "benefits": [
+      "4% mandatory public procurement reservation for SC/ST MSEs from Public Sector Undertakings (CPSEs)",
+      "80% subsidy on financial assistance for testing, quality certification, and ISO registration",
+      "80% subsidy on exhibition stall fee and travel assistance for domestic/international trade fairs",
+      "100% free special vendor development training"
+    ],
+    "simple_benefits": [
+      "Government companies must buy 4% of total goods from SC/ST business owners",
+      "80% discount on lab testing, quality badges, and trade fair stalls",
+      "Free business growth coaching"
+    ],
+    "required_documents": [
+      "SC/ST Caste Certificate",
+      "Udyam MSME Registration Certificate",
+      "PAN Card & Aadhaar of SC/ST Owner",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on NSSH Portal", "description": "Register on scsthub.in with Udyam Registration Number." },
+      { "step": 2, "title": "Apply for Certification / Trade Subsidy", "description": "Submit claims for quality certification or exhibition fee reimbursement." },
+      { "step": 3, "title": "Participate in CPSE Tenders", "description": "Get direct tender preferences in Government e-Marketplace (GeM)." }
+    ],
+    "official_source": "https://www.scsthub.in/",
+    "tags": ["NSSH", "National SC ST Hub", "Procurement Quota", "MSME"]
+  },
+  {
+    "id": "mudra_shishu",
+    "name": "Mudra Loan - Shishu Scheme",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["Micro Entrepreneurs", "Street Vendors", "Artisans", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "First tier of PMMY providing collateral-free loans up to ₹50,000 for early-stage micro enterprises and micro-vendors.",
+    "simple_description": "No-guarantee quick bank loan up to ₹50,000 to start small vegetable stalls, repair shops, tea stalls, or tailoring units.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Artisan"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support"],
+    "max_project_cost": 50000,
+    "max_assistance_text": "Collateral-free loan up to ₹50,000",
+    "benefits": [
+      "Loans up to ₹50,000 with zero collateral or guarantor",
+      "Nominal interest rate (around 8% to 10% per annum)",
+      "Minimal documentation and fast 7-day bank processing",
+      "2% interest subvention for prompt repaying borrowers"
+    ],
+    "simple_benefits": [
+      "Get up to ₹50,000 without keeping property documents as security",
+      "2% interest discount if you repay your EMIs on time"
+    ],
+    "required_documents": [
+      "Mudra Application Form (Shishu)",
+      "Aadhaar Card & PAN Card",
+      "Quotations of items/tools to buy",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at JanSamarth Portal or Local Bank", "description": "Visit jansamarth.in or local bank branch." },
+      { "step": 2, "title": "Submit 1-Page Shishu Form", "description": "Fill basic personal and shop item quotation details." },
+      { "step": 3, "title": "Instant Bank Credit", "description": "Bank approves and credits ₹50,000 into savings account." }
+    ],
+    "official_source": "https://www.mudra.org.in/",
+    "tags": ["Mudra Shishu", "Micro Loan", "Collateral Free", "PMMY"]
+  },
+  {
+    "id": "mudra_kishore",
+    "name": "Mudra Loan - Kishore Scheme",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["Micro Entrepreneurs", "Small Shopkeepers", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Second tier of PMMY providing collateral-free loans above ₹50,000 and up to ₹5 Lakhs for expanding micro enterprises.",
+    "simple_description": "No-guarantee bank loan from ₹50,000 up to ₹5 Lakhs to buy machinery, stock, or expand existing small businesses.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "New business", "Service", "Trading", "Manufacturing"],
+    "support_type": ["Business loan", "Working capital", "Equipment", "Business expansion"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "Collateral-free loan from ₹50,000 to ₹5 Lakhs",
+    "benefits": [
+      "Loans from ₹50,000 to ₹5 Lakhs for machinery and stock purchase",
+      "No collateral or third-party guarantee required",
+      "Repayment tenure up to 5 years with MUDRA debit card"
+    ],
+    "simple_benefits": [
+      "Get up to ₹5 Lakhs loan without collateral security",
+      "5 years time to repay loan in easy monthly EMIs"
+    ],
+    "required_documents": [
+      "Kishore Mudra Application Form",
+      "Aadhaar & PAN Card",
+      "Last 6 months Bank Statement",
+      "Business Proof / License / Quotations"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply on JanSamarth Portal", "description": "Log into jansamarth.in and select Mudra Kishore." },
+      { "step": 2, "title": "Attach Quotations & Bank Statement", "description": "Upload business estimates and bank details." },
+      { "step": 3, "title": "Bank Verification & Loan Disbursement", "description": "Bank approves and issues Mudra Debit Card." }
+    ],
+    "official_source": "https://www.mudra.org.in/",
+    "tags": ["Mudra Kishore", "Small Business Loan", "Collateral Free", "PMMY"]
+  },
+  {
+    "id": "mudra_tarun",
+    "name": "Mudra Loan - Tarun Scheme",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["Small Enterprises", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Third tier of PMMY providing collateral-free loans above ₹5 Lakhs and up to ₹10 Lakhs for established enterprise expansion.",
+    "simple_description": "No-guarantee bank loan from ₹5 Lakhs up to ₹10 Lakhs for growing small manufacturing units, shops, and commercial services.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Working capital", "Business expansion", "Equipment"],
+    "max_project_cost": 1000000,
+    "max_assistance_text": "Collateral-free loan from ₹5 Lakhs to ₹10 Lakhs",
+    "benefits": [
+      "Loans from ₹5 Lakhs up to ₹10 Lakhs for business expansion",
+      "100% collateral-free credit backed by CGFMU guarantee",
+      "Flexible repayment up to 5 to 7 years"
+    ],
+    "simple_benefits": [
+      "Get up to ₹10 Lakhs loan for expanding your factory or enterprise",
+      "No home or land mortgage security required"
+    ],
+    "required_documents": [
+      "Tarun Application Form",
+      "Aadhaar, PAN & Udyam MSME Certificate",
+      "Audited Financials / ITR of last 2 years",
+      "Project Report detailing expansion plan"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Prepare Financials & DPR", "description": "Assemble past ITRs and expansion DPR." },
+      { "step": 2, "title": "Apply at Commercial Bank / JanSamarth", "description": "Submit application online or at bank branch." },
+      { "step": 3, "title": "Appraisal & Disbursement", "description": "Bank appraises project and credits loan." }
+    ],
+    "official_source": "https://www.mudra.org.in/",
+    "tags": ["Mudra Tarun", "MSME Loan", "Collateral Free", "PMMY"]
+  },
+  {
+    "id": "mudra_tarun_plus",
+    "name": "Mudra Loan - Tarun Plus Scheme (Enhanced Limit)",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["Successful Mudra Borrowers", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Enhanced PMMY limit allowing loans up to ₹20 Lakhs for entrepreneurs who have successfully repaid previous Tarun loans.",
+    "simple_description": "Expanded collateral-free loan up to ₹20 Lakhs for proven business owners who successfully repaid earlier Mudra loans.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 21,
+    "age_max": 65,
+    "business_types": ["Existing business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Business expansion", "Working capital", "Equipment"],
+    "max_project_cost": 2000000,
+    "max_assistance_text": "Collateral-free loan from ₹10 Lakhs up to ₹20 Lakhs",
+    "benefits": [
+      "Enhanced credit limit up to ₹20 Lakhs for proven micro-entrepreneurs",
+      "Backed by Credit Guarantee Fund for Micro Units (CGFMU)",
+      "Competitive commercial interest rates"
+    ],
+    "simple_benefits": [
+      "Loan limit doubled to ₹20 Lakhs for good repayers",
+      "No collateral property needed"
+    ],
+    "required_documents": [
+      "Previous Mudra Loan Repayment Track Record",
+      "Udyam Registration & GST Returns",
+      "ITR for last 2 years",
+      "Aadhaar & PAN Card"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Check Eligibility at Bank Branch", "description": "Verify clean repayment history of earlier Tarun loan." },
+      { "step": 2, "title": "Submit Enhanced Credit Proposal", "description": "Submit expansion project report and GST returns." },
+      { "step": 3, "title": "Bank Sanction & Credit", "description": "Receive up to ₹20 Lakhs credit." }
+    ],
+    "official_source": "https://www.mudra.org.in/",
+    "tags": ["Mudra Tarun Plus", "20 Lakh Loan", "Collateral Free", "PMMY"]
+  },
+  {
+    "id": "tread_women",
+    "name": "Trade Related Entrepreneurship Assistance and Development (TREAD) for Women",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Women Entrepreneurs", "SC Women", "ST Women", "OBC Women"],
+    "state_or_central": "Central",
+    "description": "Envisages economic empowerment of women through development of micro-entrepreneurship by providing GOI grant up to 30% of project cost to NGOs.",
+    "simple_description": "Scheme for poor women providing 30% government grant and 70% bank loan to start group self-employment ventures.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General"],
+    "states": ["All"],
+    "income_limit": 250000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Existing business", "Service", "Artisan", "Trading", "Manufacturing"],
+    "support_type": ["Subsidy", "Business loan", "Skill training", "Self-employment support"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "30% GOI Grant + 70% Bank Loan for Women Groups",
+    "benefits": [
+      "Government of India grant up to 30% of total project cost",
+      "70% bank financing for women micro-entrepreneurs",
+      "Grant up to ₹1 Lakh per project for capacity building & skill training"
+    ],
+    "simple_benefits": [
+      "Government pays 30% of total project cost as a free grant",
+      "Bank lends remaining 70% loan",
+      "Free capacity training for women business owners"
+    ],
+    "required_documents": [
+      "Women Entrepreneur Identity & Aadhaar Proof",
+      "NGO / SHG Sponsorship Letter",
+      "Project Proposal for Micro-Enterprise",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Form Women Group / Approach NGO", "description": "Form women group through registered NGO or self-help association." },
+      { "step": 2, "title": "Submit TREAD Application to MSME-DI", "description": "Submit proposal to MSME Development Institute." },
+      { "step": 3, "title": "Grant Sanction & Bank Linkage", "description": "Receive 30% GOI grant and 70% bank loan." }
+    ],
+    "official_source": "https://msme.gov.in/",
+    "tags": ["TREAD", "Women Entrepreneur", "30 Percent Grant", "MoMSME"]
+  },
+  {
+    "id": "mahila_coir_yojana",
+    "name": "Mahila Coir Yojana (MCY)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Rural Women Artisans"],
+    "state_or_central": "Central",
+    "description": "Self-employment scheme providing motorized coir spinning ratts to rural women artisans at 75% subsidy.",
+    "simple_description": "Exclusive scheme for rural women giving 75% grant subsidy to buy coir yarn spinning machines.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 55,
+    "business_types": ["Artisan", "New business", "Manufacturing"],
+    "support_type": ["Equipment", "Subsidy", "Skill training"],
+    "max_project_cost": 100000,
+    "max_assistance_text": "75% Grant Subsidy on Motorized Coir Ratts",
+    "benefits": [
+      "75% grant subsidy on motorized spinning equipment",
+      "Stipend of ₹3,000/month during 2-month training period",
+      "Direct self-employment generation in coir producing regions"
+    ],
+    "simple_benefits": [
+      "75% discount on coir yarn machine",
+      "₹3,000 monthly cash allowance during training period"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Rural Residence Proof",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at Coir Board Office", "description": "Submit application to nearest Coir Board regional center." },
+      { "step": 2, "title": "Complete 2-Month Training", "description": "Undergo practical spinning training with monthly stipend." },
+      { "step": 3, "title": "Receive Subsidized Equipment", "description": "Get motorized spinning machine at 75% grant." }
+    ],
+    "official_source": "http://coirboard.gov.in/",
+    "tags": ["Mahila Coir Yojana", "Women Artisan", "75 Percent Subsidy"]
+  },
+  {
+    "id": "cegssc",
+    "name": "Credit Enhancement Guarantee Scheme for Scheduled Castes (CEGSSC)",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["SC Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides credit enhancement guarantee to banks for lending collateral-free loans between ₹15 Lakhs and ₹5 Crore to Scheduled Caste entrepreneurs.",
+    "simple_description": "Government guarantee scheme allowing SC business owners to get large bank loans from ₹15 Lakhs up to ₹5 Crore without collateral.",
+    "categories": ["SC"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "New business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Business expansion", "Working capital", "Equipment"],
+    "max_project_cost": 50000000,
+    "max_assistance_text": "Guarantee Cover for Loans from ₹15 Lakhs to ₹5 Crore",
+    "benefits": [
+      "100% guarantee cover for loans from ₹15 Lakhs to ₹1 Crore",
+      "80% guarantee cover for loans above ₹1 Crore up to ₹5 Crore",
+      "Enables SC entrepreneurs to access large commercial credit without mortgage"
+    ],
+    "simple_benefits": [
+      "Government acts as guarantor for large SC business loans up to ₹5 Crore",
+      "No property mortgage required"
+    ],
+    "required_documents": [
+      "SC Caste Certificate",
+      "Company Registration / Partnership Deed",
+      "Project Report & Bank Loan Proposal",
+      "PAN Card & Aadhaar of SC Directors"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at Member Lending Bank", "description": "Approach commercial bank or IFCI with loan proposal." },
+      { "step": 2, "title": "Bank Applies for CEGSSC Cover", "description": "Bank requests guarantee cover on IFCI CEGSSC portal." },
+      { "step": 3, "title": "Loan Disbursement", "description": "Receive loan funds without providing collateral." }
+    ],
+    "official_source": "https://cegssc.in/",
+    "tags": ["CEGSSC", "SC Guarantee", "Collateral Free", "IFCI"]
+  },
+  {
+    "id": "pm_yasasvi",
+    "name": "PM Young Achievers Scholarship & Entrepreneurship Support (PM YASASVI)",
+    "ministry": "Ministry of Social Justice and Empowerment (MoSJE)",
+    "target_beneficiaries": ["OBC", "EBC", "DNT Youth Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Integrated scheme providing skill training, educational support, and self-employment startup toolkits for OBC, EBC, and De-notified Tribes (DNT) youth.",
+    "simple_description": "Government scheme offering skill training, financial grants, and business toolkits for OBC, EBC, and DNT youth.",
+    "categories": ["OBC", "EWS"],
+    "states": ["All"],
+    "income_limit": 250000,
+    "age_min": 18,
+    "age_max": 35,
+    "business_types": ["New business", "Service", "Artisan", "Trading"],
+    "support_type": ["Skill training", "Subsidy", "Equipment", "Self-employment support"],
+    "max_project_cost": 250000,
+    "max_assistance_text": "Free Skill Training + Startup Toolkit Grant up to ₹2.5 Lakhs",
+    "benefits": [
+      "100% free NSQF skill training in high-demand technical trades",
+      "Startup toolkit grant assistance up to ₹2.5 Lakhs for course completers",
+      "Special emphasis on De-notified, Nomadic, and Semi-Nomadic Tribes (DNT)"
+    ],
+    "simple_benefits": [
+      "Free technical skill training for OBC and DNT youth",
+      "Cash toolkit grant up to ₹2.5 Lakhs to start your own enterprise"
+    ],
+    "required_documents": [
+      "OBC / EBC / DNT Category Certificate",
+      "Annual Income Certificate (< ₹2.5 Lakh)",
+      "Aadhaar Card & Educational Marksheet",
+      "Bank Account Passbook"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on YASASVI NTA Portal", "description": "Visit yet.nta.ac.in and create user profile." },
+      { "step": 2, "title": "Select Skill / Entrepreneurship Track", "description": "Choose trade training program." },
+      { "step": 3, "title": "Complete Course & Claim Toolkit Grant", "description": "Receive certified training and apply for startup toolkit." }
+    ],
+    "official_source": "https://socialjustice.gov.in/",
+    "tags": ["PM YASASVI", "OBC Youth", "DNT", "Toolkit Grant"]
+  },
+  {
+    "id": "pms_msme",
+    "name": "Procurement and Marketing Support (PMS) Scheme for MSMEs",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Micro Enterprises", "SC", "ST", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Encourages Micro and Small Enterprises in developing domestic market and promoting new market access initiatives through 80% to 100% stall subsidies.",
+    "simple_description": "Government scheme paying 80% to 100% of stall rent and travel costs for micro-business owners exhibiting products at trade expos across India.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "Manufacturing", "Service", "Artisan", "Trading"],
+    "support_type": ["Marketing support", "Subsidy"],
+    "max_project_cost": 200000,
+    "max_assistance_text": "100% Stall Subsidy for SC/ST/Women/PH, 80% for General",
+    "benefits": [
+      "100% stall space rent subsidy for SC, ST, Women, and PwD MSE owners",
+      "80% stall space rent subsidy for General category micro enterprises",
+      "Reimbursement of AC 2-tier train fare for travel to trade exhibitions",
+      "Free onboarding support on Government e-Marketplace (GeM)"
+    ],
+    "simple_benefits": [
+      "Free exhibition stalls at national trade fairs for SC/ST/Women business owners",
+      "80% discount on stall rent for General category",
+      "Travel ticket reimbursement to participate in trade expos"
+    ],
+    "required_documents": [
+      "Udyam MSME Registration Certificate",
+      "Aadhaar Card & PAN Card",
+      "Trade Fair Participation Invoice & Stall Receipt",
+      "Caste / Women Certificate (if claiming 100% subsidy)"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on MyMSME PMS Portal", "description": "Log into my.msme.gov.in." },
+      { "step": 2, "title": "Apply for Trade Fair Approval", "description": "Select approved national exhibition 30 days prior." },
+      { "step": 3, "title": "Submit Reimbursement Claim", "description": "Upload stall receipts and travel tickets for 80-100% refund." }
+    ],
+    "official_source": "https://my.msme.gov.in/",
+    "tags": ["PMS Scheme", "Marketing Support", "Trade Fair Subsidy", "MSME"]
+  },
+  {
+    "id": "esdp_msme",
+    "name": "Entrepreneurship Skill Development Programme (ESDP)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Youth", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Organizes entrepreneurship awareness and technical skill development courses to nurture talent among youth and prepare them for self-employment.",
+    "simple_description": "Free 6-week hands-on technical business training program conducted by MSME-Development Institutes across India.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 45,
+    "business_types": ["New business", "Manufacturing", "Service", "Trading", "Artisan"],
+    "support_type": ["Skill training", "Self-employment support"],
+    "max_project_cost": 20000,
+    "max_assistance_text": "100% Free 6-Week Practical Training + Govt Certificate",
+    "benefits": [
+      "100% free practical technical training (Electronics, Food processing, Garments, CNC machining, Mobile repair)",
+      "Government MSME training certificate",
+      "Direct assistance in preparing PMEGP / Mudra project reports for bank loans"
+    ],
+    "simple_benefits": [
+      "Free 6-week technical training in high-paying repair, manufacturing, and food processing trades",
+      "Official MSME certificate to apply for bank loans easily"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Educational Qualification Certificate",
+      "Passport size photos"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit Nearby MSME-Development Institute (MSME-DI)", "description": "Check upcoming course schedule at MSME-DI office." },
+      { "step": 2, "title": "Fill ESDP Application", "description": "Submit form for preferred technical course." },
+      { "step": 3, "title": "Pass Training & Get Loan Handholding", "description": "Pass 6-week course and receive project report assistance." }
+    ],
+    "official_source": "https://msme.gov.in/",
+    "tags": ["ESDP", "MSME Training", "Free Skilling", "Self Employment"]
+  },
+  {
+    "id": "udyam_sakhi",
+    "name": "Udyam Sakhi Portal for Women Entrepreneurs",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Women Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Dedicated single-window portal providing women entrepreneurs with business guidance, project profiles, incubation linkage, and loan handholding.",
+    "simple_description": "Special government portal offering free business mentoring, sample project plans, and loan guidance for women starting businesses.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Manufacturing", "Trading", "Artisan"],
+    "support_type": ["Self-employment support", "Skill training", "Marketing support", "Business loan"],
+    "max_project_cost": 10000000,
+    "max_assistance_text": "Free Mentorship + Sample Project Profiles + Loan Handholding",
+    "benefits": [
+      "Access to 100+ readymade downloadable project reports and business ideas",
+      "Free 1-on-1 mentorship from successful women business leaders",
+      "Direct guidance for applying to Stand-Up India and PMEGP women quotas"
+    ],
+    "simple_benefits": [
+      "Free sample business plans for over 100 different shops and factories",
+      "Free mentor advice to help women get bank loan approvals"
+    ],
+    "required_documents": [
+      "Aadhaar Card of Woman Founder",
+      "PAN Card",
+      "Proposed Business Details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit Udyam Sakhi Portal", "description": "Go to udyamsakhi.msme.gov.in and register." },
+      { "step": 2, "title": "Download Project Profiles & Apply for Mentorship", "description": "Select business category and connect with mentor." },
+      { "step": 3, "title": "Submit Loan Application", "description": "Apply for Stand-Up India or PMEGP loan through portal portal guidance." }
+    ],
+    "official_source": "http://udyamsakhi.msme.gov.in/",
+    "tags": ["Udyam Sakhi", "Women Entrepreneur", "Mentorship", "MSME"]
+  },
+  {
+    "id": "pmkvy_4",
+    "name": "PM Kaushal Vikas Yojana 4.0 (PMKVY 4.0 Entrepreneurship Track)",
+    "ministry": "Ministry of Skill Development and Entrepreneurship (MSDE)",
+    "target_beneficiaries": ["Youth", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Skill training initiative offering Industry 4.0, digital, and entrepreneurship modules with free certification and stipend.",
+    "simple_description": "Free skill training program offering Industry 4.0 tech courses, financial literacy, and direct business start-up assistance.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 45,
+    "business_types": ["New business", "Service", "Manufacturing", "Trading"],
+    "support_type": ["Skill training", "Self-employment support"],
+    "max_project_cost": 30000,
+    "max_assistance_text": "Free Certified Training + ₹5,000 Skill Wallet Allowance",
+    "benefits": [
+      "100% free skill training in 300+ NSQF job roles",
+      "Government Skill India digital certificate",
+      "Direct integration with Mudra and PM SVANidhi portal for instant loan applications"
+    ],
+    "simple_benefits": [
+      "Free skill training courses with official Skill India Certificate",
+      "Direct link to get Mudra loans after course completion"
+    ],
+    "required_documents": [
+      "Aadhaar Card (Mobile linked)",
+      "Bank Account Passbook",
+      "Educational Certificate"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on Skill India Digital (SID)", "description": "Visit skillindiadigital.gov.in." },
+      { "step": 2, "title": "Enroll in PMKVY 4.0 Course", "description": "Select local training center and course." },
+      { "step": 3, "title": "Complete Training & Assessment", "description": "Receive Skill Certificate and apply for Mudra loan." }
+    ],
+    "official_source": "https://www.skillindiadigital.gov.in/",
+    "tags": ["PMKVY 4.0", "Skill India", "Free Skilling", "MSDE"]
+  },
+  {
+    "id": "cgs_subordinate_debt",
+    "name": "Credit Guarantee Scheme for Subordinate Debt (CGSSD) for Stressed MSMEs",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Stressed MSME Promoters", "SC", "ST", "OBC", "General"],
+    "state_or_central": "Central",
+    "description": "Provides guarantee coverage for sub-debt facility extended by banks to promoters of stressed/SMA-2/NPA MSME units.",
+    "simple_description": "Special government credit scheme providing extra bank loans up to ₹75 Lakhs to save and restart struggling or NPA MSME businesses.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 21,
+    "age_max": 65,
+    "business_types": ["Existing business", "Manufacturing", "Service"],
+    "support_type": ["Business loan", "Business expansion", "Working capital"],
+    "max_project_cost": 7500000,
+    "max_assistance_text": "Subordinate Debt up to 15% of Promoter Stake or ₹75 Lakhs",
+    "benefits": [
+      "Subordinate debt assistance up to 15% of promoter stake or ₹75 Lakhs",
+      "90% guarantee coverage by CGTMSE for the sub-debt loan",
+      "7 years repayment tenure with 7 years moratorium on principal"
+    ],
+    "simple_benefits": [
+      "Extra bank loan up to ₹75 Lakhs to revive struggling factories",
+      "7 years grace period before paying principal repayment"
+    ],
+    "required_documents": [
+      "MSME Udyam Registration",
+      "Bank NPA / Stressed Account Declaration",
+      "Audited Balance Sheets of last 3 years",
+      "Revival Business Plan"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Approach Lending Bank", "description": "Apply to original lending bank where MSME account is stressed." },
+      { "step": 2, "title": "Submit Revival DPR", "description": "Provide business turnaround plan." },
+      { "step": 3, "title": "Bank Obtains CGTMSE Sub-Debt Cover", "description": "Bank receives 90% guarantee cover and disburses loan." }
+    ],
+    "official_source": "https://www.cgtmse.in/",
+    "tags": ["CGSSD", "Stressed MSME", "NPA Revival", "Subordinate Debt"]
+  },
+  {
+    "id": "cgsme_scheme",
+    "name": "Credit Guarantee Scheme for Micro Enterprises (CGSME)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Micro Enterprises", "SC", "ST", "Women"],
+    "state_or_central": "Central",
+    "description": "Targeted credit guarantee scheme providing 85% coverage for micro-enterprise loans up to ₹5 Lakhs.",
+    "simple_description": "Government guarantee scheme ensuring small loans up to ₹5 Lakhs for tiny shops and micro-workshops get approved without collateral.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing"],
+    "support_type": ["Business loan", "Working capital"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "85% Guarantee Cover for Micro Loans up to ₹5 Lakhs",
+    "benefits": [
+      "85% guarantee coverage for all micro-enterprise credit facilities up to ₹5 Lakhs",
+      "Reduced annual guarantee fee of 0.375%",
+      "Faster digital sanction by public & regional rural banks"
+    ],
+    "simple_benefits": [
+      "85% government guarantee for small business loans up to ₹5 Lakhs",
+      "Very low annual guarantee fee"
+    ],
+    "required_documents": [
+      "Udyam MSME Registration",
+      "Aadhaar Card & PAN Card",
+      "Project Loan Proposal"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at Partnered Bank / RRB", "description": "Submit micro loan application." },
+      { "step": 2, "title": "Bank Issues CGSME Guarantee", "description": "Bank files online guarantee request on CGTMSE portal." },
+      { "step": 3, "title": "Loan Disbursement", "description": "Receive loan funds directly." }
+    ],
+    "official_source": "https://www.cgtmse.in/",
+    "tags": ["CGSME", "Micro Loan Guarantee", "Collateral Free", "MSME"]
+  },
+  {
+    "id": "cgfmu_micro",
+    "name": "Credit Guarantee Fund for Micro Units (CGFMU)",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["Micro Enterprises", "Mudra Borrowers"],
+    "state_or_central": "Central",
+    "description": "Provides credit guarantee to banks for micro-loans up to ₹10 Lakhs extended under Pradhan Mantri Mudra Yojana.",
+    "simple_description": "Government fund providing bank guarantee cover for all Mudra loans up to ₹10 Lakhs so banks cannot demand collateral.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["New business", "Existing business", "Service", "Trading", "Manufacturing"],
+    "support_type": ["Business loan", "Working capital"],
+    "max_project_cost": 1000000,
+    "max_assistance_text": "75% to 85% Guarantee Cover for Mudra Loans up to ₹10 Lakhs",
+    "benefits": [
+      "75% to 85% guarantee cover for all micro-loans up to ₹10 Lakhs",
+      "Protects lending banks against defaults, encouraging collateral-free lending to micro entrepreneurs"
+    ],
+    "simple_benefits": [
+      "Ensures banks cannot ask for house or land security for Mudra loans"
+    ],
+    "required_documents": [
+      "Mudra Loan Application",
+      "Aadhaar & PAN Card",
+      "Business Plan Proposal"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply for Mudra Loan at Bank", "description": "Submit Mudra loan application." },
+      { "step": 2, "title": "Bank Enrolls Loan in CGFMU", "description": "Bank automatically registers loan under CGFMU guarantee." }
+    ],
+    "official_source": "https://www.ncgmt.in/",
+    "tags": ["CGFMU", "Mudra Guarantee", "NCGMT", "Collateral Free"]
+  },
+  {
+    "id": "gramodyog_vikas",
+    "name": "Gramodyog Vikas Yojana (Village Industry & Honey Mission)",
+    "ministry": "Ministry of Micro, Small and Medium Enterprises (MoMSME)",
+    "target_beneficiaries": ["Village Artisans", "Beekeepers", "Potters", "Leather Workers"],
+    "state_or_central": "Central",
+    "description": "KVIC scheme promoting village industries by distributing modern pottery wheels (Kumhar Sashaktikaran), Honey Bee Boxes (Honey Mission), and leather toolkits.",
+    "simple_description": "KVIC scheme distributing free electric pottery wheels, 10 free bee-boxes, and modern leather toolkits to traditional village artisans.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["Artisan", "Agri-allied", "Manufacturing", "Self-employed"],
+    "support_type": ["Equipment", "Skill training", "Subsidy", "Self-employment support"],
+    "max_project_cost": 150000,
+    "max_assistance_text": "100% Free Machinery & Toolkits (Electric Wheels, Bee Boxes)",
+    "benefits": [
+      "100% free distribution of electric pottery wheels and pug mills under Kumhar Sashaktikaran",
+      "100% free distribution of 10 Honey Bee Boxes with bee colonies under Honey Mission",
+      "100% free footwear/leather repairing toolkits",
+      "5 days practical training with tool distribution"
+    ],
+    "simple_benefits": [
+      "Free electric pottery wheel for potters",
+      "10 free honey bee boxes with bees for beekeepers",
+      "Free professional toolkits for leather artisans"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Artisan Certificate / Gram Panchayat Letter",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at KVIC Divisional Office", "description": "Submit application to KVIC State/Divisional office." },
+      { "step": 2, "title": "Undergo 5-Day Skill Workshop", "description": "Attend practical equipment operation workshop." },
+      { "step": 3, "title": "Receive Free Equipment & Boxes", "description": "Get electric wheel / 10 bee boxes free of cost." }
+    ],
+    "official_source": "https://www.kvic.gov.in/",
+    "tags": ["Gramodyog Vikas", "KVIC", "Honey Mission", "Kumhar Sashaktikaran"]
+  },
+  {
+    "id": "st_hub_scheme",
+    "name": "Scheme for Financial Assistance to ST Entrepreneurs (ST Hub)",
+    "ministry": "Ministry of Tribal Affairs (MoTA)",
+    "target_beneficiaries": ["ST Entrepreneurs"],
+    "state_or_central": "Central",
+    "description": "Provides financial subsidy, GeM onboarding, tender fee waiver, and exhibition assistance specifically for Scheduled Tribe entrepreneurs.",
+    "simple_description": "Special assistance program for ST business owners giving 100% tender fee waivers, GeM portal registration, and trade stall grants.",
+    "categories": ["ST"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "New business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Marketing support", "Subsidy", "Skill training"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "100% Waiver on EMD/Tender Fees + Trade Stall Grants",
+    "benefits": [
+      "100% waiver of Earnest Money Deposit (EMD) and tender document fees in government procurement",
+      "80% to 100% subsidy on domestic exhibition stall charges",
+      "Free technical training and GeM portal seller onboarding"
+    ],
+    "simple_benefits": [
+      "No tender fees or EMD deposit needed for ST business owners applying for government tenders",
+      "Free exhibition stalls across India"
+    ],
+    "required_documents": [
+      "ST Tribe Certificate",
+      "Udyam MSME Registration",
+      "Aadhaar Card & PAN Card"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on ST Hub Cell / TRIFED", "description": "Register online with ST proof and Udyam number." },
+      { "step": 2, "title": "Claim Tender Waiver on GeM", "description": "Apply for 100% EMD waiver during government bidding." }
+    ],
+    "official_source": "https://tribal.gov.in/",
+    "tags": ["ST Hub", "Tribal Affairs", "Tender Waiver", "GeM"]
+  },
+  {
+    "id": "pm_janman_cell",
+    "name": "PM JANMAN (Janjati Adivasi Nyaya Maha Abhiyan) Self-Employment Cell",
+    "ministry": "Ministry of Tribal Affairs (MoTA)",
+    "target_beneficiaries": ["Particularly Vulnerable Tribal Groups (PVTG)"],
+    "state_or_central": "Central",
+    "description": "Special mission targeting 75 Particularly Vulnerable Tribal Groups (PVTGs) to provide housing, clean water, electrification, and 100% funded self-employment micro-units.",
+    "simple_description": "Exclusive government scheme for primitive and vulnerable tribal families (PVTG) offering 100% funded micro-business units, tools, and house support.",
+    "categories": ["ST"],
+    "states": ["All"],
+    "income_limit": 150000,
+    "age_min": 18,
+    "age_max": 60,
+    "business_types": ["New business", "Artisan", "Agri-allied", "Self-employed"],
+    "support_type": ["Subsidy", "Equipment", "Self-employment support"],
+    "max_project_cost": 250000,
+    "max_assistance_text": "100% Funded Micro-Enterprise Units & Tools for PVTG Families",
+    "benefits": [
+      "100% financial assistance for setting up micro-processing units and handicraft centers",
+      "Free solar lighting, housing, and clean water infrastructure at PVTG habitations",
+      "Direct market linkage for forest products through TRIFED"
+    ],
+    "simple_benefits": [
+      "100% free government funding for micro-business setup for PVTG tribal families",
+      "Free house and solar power support"
+    ],
+    "required_documents": [
+      "PVTG Tribe Certificate",
+      "Aadhaar Card & Bank Account Passbook",
+      "Habitation Verification Letter from District Collector"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Survey by JANMAN District Mobile Unit", "description": "Special team visits PVTG habitation for enrollment." },
+      { "step": 2, "title": "Selection of Self-Employment Activity", "description": "Choose local forest product or handicraft trade." },
+      { "step": 3, "title": "100% Direct Asset Delivery", "description": "Receive business machinery and housing assistance." }
+    ],
+    "official_source": "https://tribal.gov.in/",
+    "tags": ["PM JANMAN", "PVTG", "Primitive Tribals", "100 Percent Grant"]
+  },
+  {
+    "id": "sipeit_msme",
+    "name": "Support for International Patent Protection in E&IT (SIPEIT)",
+    "ministry": "Ministry of Electronics and Information Technology (MeitY)",
+    "target_beneficiaries": ["Tech MSMEs", "Startups", "SC", "ST", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Provides financial support to MSMEs and Technology Startups for international patent filing in Information & Communication Technology.",
+    "simple_description": "Government scheme paying 50% of total costs (up to ₹15 Lakhs) for filing international patents for tech inventions.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Existing business", "New business", "Service", "Manufacturing"],
+    "support_type": ["Subsidy", "Business expansion"],
+    "max_project_cost": 3000000,
+    "max_assistance_text": "50% Reimbursement up to ₹15 Lakhs per Patent",
+    "benefits": [
+      "50% reimbursement of total expense incurred in international patent filing up to ₹15 Lakhs per invention",
+      "Covers attorney fees, patent office filing fees, and search report costs"
+    ],
+    "simple_benefits": [
+      "Government pays 50% of international patent filing costs (up to ₹15 Lakhs)"
+    ],
+    "required_documents": [
+      "DPIIT Startup / MSME Udyam Certificate",
+      "Indian Patent Application Filing Proof",
+      "International Patent Office Receipts & Attorney Invoices"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply on SIPEIT MeitY Portal", "description": "Visit meity.gov.in/esda/sipeit." },
+      { "step": 2, "title": "Technical Evaluation by Expert Committee", "description": "Committee reviews patent novelty." },
+      { "step": 3, "title": "Reimbursement Release", "description": "Receive 50% grant reimbursement into bank account." }
+    ],
+    "official_source": "https://www.meity.gov.in/",
+    "tags": ["SIPEIT", "Patent Subsidy", "Tech Startup", "MeitY"]
+  },
+  {
+    "id": "ibdc_beekeeping",
+    "name": "Integrated Beekeeping Development Centre (IBDC - National Beekeeping Mission)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "target_beneficiaries": ["Beekeepers", "Farmers", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Promotes scientific beekeeping for honey production and crop pollination with 80% subsidy for SC/ST farmers and 40% for General.",
+    "simple_description": "Government scheme for honey production providing up to 80% grant subsidy on honey bee hives, extraction machines, and testing kits.",
+    "categories": ["SC", "ST", "OBC", "Women", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Agri-allied", "New business", "Existing business", "Manufacturing"],
+    "support_type": ["Subsidy", "Equipment", "Skill training"],
+    "max_project_cost": 500000,
+    "max_assistance_text": "80% Subsidy for SC/ST Farmers, 40% for General Category",
+    "benefits": [
+      "80% subsidy on 50 bee boxes and colonies for SC/ST farmers",
+      "40% subsidy for General category applicants",
+      "100% free training at Krishi Vigyan Kendras (KVK)",
+      "Subsidy on honey processing and bottling machinery up to ₹20 Lakhs"
+    ],
+    "simple_benefits": [
+      "80% discount on honey bee boxes for SC/ST farmers",
+      "Free honey extraction training and testing kit"
+    ],
+    "required_documents": [
+      "Aadhaar Card & Farmer Land / Identity Proof",
+      "Caste Certificate (if SC/ST)",
+      "Bank Account details",
+      "KVK Beekeeping Training Certificate"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Register on Madhukranti Portal", "description": "Visit madhukranti.agricoop.gov.in." },
+      { "step": 2, "title": "Submit Application to District Horticulture Officer", "description": "Attach land proof and training certificate." },
+      { "step": 3, "title": "Receive Subsidized Bee Boxes", "description": "Get bee boxes and subsidy credit." }
+    ],
+    "official_source": "https://nbm.gov.in/",
+    "tags": ["Honey Mission", "Beekeeping", "National Beekeeping Mission", "Subsidy"]
+  },
+  {
+    "id": "silk_samagra",
+    "name": "Silk Samagra 2 - Sericulture & Weaving Assistance",
+    "ministry": "Ministry of Textiles (Central Silk Board)",
+    "target_beneficiaries": ["Silk Farmers", "Reelers", "Weavers", "SC", "ST", "Women"],
+    "state_or_central": "Central",
+    "description": "Comprehensive silk sector scheme giving 65% to 90% subsidy for mulberry cultivation, silkworm rearing sheds, and automatic reeling machines.",
+    "simple_description": "Government scheme for silk growers and weavers offering 65% to 90% cash grant subsidy for building silk rearing sheds and buying machines.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Agri-allied", "Artisan", "Manufacturing", "Existing business"],
+    "support_type": ["Subsidy", "Equipment", "Skill training"],
+    "max_project_cost": 1500000,
+    "max_assistance_text": "90% Subsidy for SC/ST Silk Farmers, 65% for General Category",
+    "benefits": [
+      "90% subsidy for SC/ST silk farmers for silkworm rearing house construction",
+      "65% subsidy for General category silk farmers",
+      "Financial assistance up to ₹15 Lakhs for Automatic Reeling Units (ARU)",
+      "Free technical training by Central Silk Board"
+    ],
+    "simple_benefits": [
+      "90% free grant to build silk rearing sheds for SC/ST farmers",
+      "65% grant for General silk weavers"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Caste Certificate (if SC/ST)",
+      "Land Ownership / Mulberry Plantation Proof",
+      "Bank Passbook details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at State Sericulture Department", "description": "Submit application to District Sericulture Officer." },
+      { "step": 2, "title": "Field Inspection by Central Silk Board", "description": "Officer verifies plantation land." },
+      { "step": 3, "title": "Shed Construction & Subsidy Disbursement", "description": "Build shed and receive 65-90% subsidy." }
+    ],
+    "official_source": "csb.gov.in",
+    "tags": ["Silk Samagra", "Sericulture", "Weavers", "Central Silk Board"]
+  },
+  {
+    "id": "rgsa_village_industry",
+    "name": "Rashtriya Gram Swaraj Abhiyan (RGSA) Village Industry Grants",
+    "ministry": "Ministry of Panchayati Raj",
+    "target_beneficiaries": ["Gram Panchayat Artisans", "SC", "ST", "Rural Women"],
+    "state_or_central": "Central",
+    "description": "Provides financial grants to Gram Panchayats to establish village enterprise hubs, rural haats, and micro-processing units for local artisans.",
+    "simple_description": "Government scheme building free village market stalls (Gramin Haats) and shared processing centers for rural artisans.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 200000,
+    "age_min": 18,
+    "age_max": 65,
+    "business_types": ["Artisan", "Agri-allied", "Service", "Trading"],
+    "support_type": ["Equipment", "Marketing support", "Subsidy"],
+    "max_project_cost": 2000000,
+    "max_assistance_text": "100% Grant to Gram Panchayat for Village Haat & Artisan Hubs",
+    "benefits": [
+      "100% grant to Gram Panchayats for establishing rural markets and artisan stalls",
+      "Free allotment of market space for local SC/ST and women artisans",
+      "Infrastructure support for solar cold storage at village level"
+    ],
+    "simple_benefits": [
+      "Free market stalls inside village Gramin Haats to sell products",
+      "Solar cold storage access for small farmers and vendors"
+    ],
+    "required_documents": [
+      "Gram Panchayat Residence Proof",
+      "Aadhaar Card",
+      "Artisan / Micro Vendor Registration"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply at Gram Sabha Meeting", "description": "Request stall allotment during Gram Sabha." },
+      { "step": 2, "title": "Gram Panchayat Resolution", "description": "Panchayat approves allotment." },
+      { "step": 3, "title": "Stall Possession", "description": "Start selling products at village haat." }
+    ],
+    "official_source": "https://rgsa.nic.in/",
+    "tags": ["RGSA", "Village Haat", "Panchayati Raj", "Rural Market"]
+  },
+  {
+    "id": "suigs_guarantee",
+    "name": "Stand Up India Guarantee Scheme (SUIGS)",
+    "ministry": "Ministry of Finance",
+    "target_beneficiaries": ["SC Borrowers", "ST Borrowers", "Women Borrowers"],
+    "state_or_central": "Central",
+    "description": "Credit guarantee fund managed by NCGTC providing up to 80% guarantee coverage for bank loans sanctioned under Stand-Up India.",
+    "simple_description": "Government guarantee fund ensuring banks approve Stand-Up India loans between ₹10 Lakhs and ₹1 Crore for SC/ST and Women without collateral.",
+    "categories": ["SC", "ST", "Women"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["New business", "Manufacturing", "Service", "Trading"],
+    "support_type": ["Business loan", "Working capital"],
+    "max_project_cost": 10000000,
+    "max_assistance_text": "80% Credit Guarantee Cover for Stand-Up India Loans",
+    "benefits": [
+      "80% credit guarantee cover for Stand-Up India loans up to ₹1 Crore",
+      "Eliminates requirement for third-party guarantors or property collateral"
+    ],
+    "simple_benefits": [
+      "Ensures banks approve Stand-Up India loans without demanding land security"
+    ],
+    "required_documents": [
+      "Stand-Up India Loan Sanction Letter",
+      "Aadhaar & PAN Card",
+      "SC/ST/Woman Category Certificate"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply for Stand-Up India Loan", "description": "Submit loan proposal on standupmitra.in." },
+      { "step": 2, "title": "Bank Issues SUIGS Guarantee", "description": "Bank files online guarantee request with NCGTC." }
+    ],
+    "official_source": "https://www.ncgmt.in/",
+    "tags": ["SUIGS", "Stand-Up India Guarantee", "NCGMT", "SC ST Women"]
+  },
+  {
+    "id": "national_handicraft_development",
+    "name": "National Handicraft Development Programme (NHDP Direct Benefit to Artisans)",
+    "ministry": "Ministry of Textiles (Development Commissioner Handicrafts)",
+    "target_beneficiaries": ["Handicraft Artisans", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Provides Pehchan Artisan Card, 100% free modern toolkits, solar lighting, design workshops, and direct exhibition participation support.",
+    "simple_description": "Government scheme for handicraft makers giving a free Pehchan Artisan ID card, free modern toolkit set, and free exhibition stalls.",
+    "categories": ["SC", "ST", "OBC", "Women", "General"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["Artisan", "Traditional Craft", "Self-employed"],
+    "support_type": ["Equipment", "Skill training", "Marketing support", "Subsidy"],
+    "max_project_cost": 100000,
+    "max_assistance_text": "Pehchan Card + 100% Free Toolkits + Free Exhibition Stalls",
+    "benefits": [
+      "Official Pehchan Card for national artisan identification and health insurance",
+      "100% free distribution of customized modern artisan toolkits",
+      "100% free participation in Dilli Haat and Surajkund Crafts Mela stalls",
+      "Design development workshops by National Institute of Design (NID) experts"
+    ],
+    "simple_benefits": [
+      "Free Official Pehchan Artisan Identity Card",
+      "100% free professional toolkit set delivered to your home",
+      "Free stalls to sell your crafts at Dilli Haat and major craft fairs"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Sample Handicraft Product Photographs",
+      "Bank Account details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Apply for Pehchan Card", "description": "Visit nearest Handicrafts Service Centre or handicraft.nic.in." },
+      { "step": 2, "title": "Biometric Verification & Card Issue", "description": "Receive official Pehchan Artisan Identity Card." },
+      { "step": 3, "title": "Apply for Free Toolkits & Fairs", "description": "Submit request for toolkits and exhibition stall allotments." }
+    ],
+    "official_source": "http://www.handicrafts.nic.in/",
+    "tags": ["Pehchan Card", "NHDP", "Handicraft Artisan", "Free Toolkit"]
+  },
+  {
+    "id": "pm_kisan_samman",
+    "name": "Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "target_beneficiaries": ["Small Farmers", "Marginal Farmers", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Direct income support scheme providing ₹6,000 per year in three equal installments to small and marginal farmer families.",
+    "simple_description": "Government scheme giving ₹6,000 per year cash directly into bank account of small and marginal farmers in 3 installments of ₹2,000 each.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["Agri-allied", "Self-employed"],
+    "support_type": ["Subsidy", "Self-employment support"],
+    "max_project_cost": 0,
+    "max_assistance_text": "₹6,000 per year in 3 installments of ₹2,000 each",
+    "benefits": [
+      "₹2,000 credited every 4 months directly into bank account",
+      "Total benefit of ₹6,000 per year for eligible farmer families",
+      "100% central government funded scheme",
+      "No middlemen - Direct Benefit Transfer (DBT) to bank account"
+    ],
+    "simple_benefits": [
+      "₹6,000 cash per year in 3 installments of ₹2,000",
+      "Money goes directly to your bank account",
+      "No need to apply through any agent"
+    ],
+    "required_documents": [
+      "Aadhaar Card (Mobile linked)",
+      "Land Ownership Records (Khasra/Khatauni)",
+      "Bank Account Passbook",
+      "Citizenship Proof"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit PM-KISAN Portal", "description": "Go to pmkisan.gov.in and click 'New Farmer Registration'." },
+      { "step": 2, "title": "Fill Aadhaar & Land Details", "description": "Enter Aadhaar number, land records, and bank account details." },
+      { "step": 3, "title": "Complete e-KYC", "description": "Complete Aadhaar-based e-KYC at nearest CSC center." },
+      { "step": 4, "title": "Receive Cash in Bank", "description": "Verify land records and receive ₹2,000 every 4 months in bank account." }
+    ],
+    "official_source": "https://pmkisan.gov.in/",
+    "tags": ["PM-KISAN", "Farmer Income Support", "Direct Benefit Transfer", "Agriculture"]
+  },
+  {
+    "id": "pm_kisan_maandhan",
+    "name": "Pradhan Mantri Kisan Maan-Dhan Yojana (PM-KMY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "target_beneficiaries": ["Small Farmers", "Marginal Farmers", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Voluntary pension scheme for small and marginal farmers providing ₹3,000 monthly pension after age 60.",
+    "simple_description": "Government pension scheme for small farmers giving ₹3,000 per month pension after age 60 with affordable monthly contribution.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 40,
+    "business_types": ["Agri-allied", "Self-employed"],
+    "support_type": ["Subsidy", "Self-employment support"],
+    "max_project_cost": 0,
+    "max_assistance_text": "₹3,000 monthly pension after age 60",
+    "benefits": [
+      "Guaranteed monthly pension of ₹3,000 after attaining age 60",
+      "Government matches equal contribution in pension fund",
+      "Family pension of 50% (₹1,500/month) to spouse after death",
+      "Affordable monthly contribution starting from ₹55 to ₹200"
+    ],
+    "simple_benefits": [
+      "Get ₹3,000 pension every month after age 60",
+      "Government pays half of your monthly contribution",
+      "Spouse gets family pension after your death"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Savings Bank Account / Post Office Account",
+      "Land Ownership Records",
+      "Age Proof"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit Nearest CSC Center", "description": "Go to Common Service Centre with Aadhaar and bank passbook." },
+      { "step": 2, "title": "Fill PM-KMY Registration Form", "description": "Fill enrollment form and auto-debit consent for monthly contribution." },
+      { "step": 3, "title": "Auto-Debit Monthly Contribution", "description": "Contribution auto-debited from savings account every month." },
+      { "step": 4, "title": "Receive Pension at Age 60", "description": "Get ₹3,000 monthly pension credited directly into bank account." }
+    ],
+    "official_source": "https://maandhan.in/",
+    "tags": ["PM-KMY", "Farmer Pension", "Old Age Security", "Agriculture"]
+  },
+  {
+    "id": "pm_fasal_bima",
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "target_beneficiaries": ["Farmers", "SC", "ST", "OBC", "Women", "General"],
+    "state_or_central": "Central",
+    "description": "Crop insurance scheme providing financial support to farmers suffering crop loss or damage due to unforeseen events.",
+    "simple_description": "Government crop insurance scheme protecting farmers from natural calamities, pests, and diseases with very low premium.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 70,
+    "business_types": ["Agri-allied", "Self-employed"],
+    "support_type": ["Subsidy", "Self-employment support"],
+    "max_project_cost": 0,
+    "max_assistance_text": "Crop insurance with premium as low as 1.5% - 5%",
+    "benefits": [
+      "Comprehensive risk coverage from pre-sowing to post-harvest",
+      "Very low premium rates: 2% for Kharif, 1.5% for Rabi, 5% for commercial crops",
+      "Government pays remaining premium subsidy on behalf of farmers",
+      "Quick claim settlement through Direct Benefit Transfer (DBT)"
+    ],
+    "simple_benefits": [
+      "Get crop insurance at just 1.5% to 5% premium cost",
+      "Government pays the rest of insurance premium",
+      "Fast claim settlement directly into bank account"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Records / Tenant Agreement",
+      "Bank Account Passbook",
+      "Sowing Certificate / Crop Details"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit PMFBY Portal or Bank", "description": "Go to pmfby.gov.in or nearest bank/CSC center." },
+      { "step": 2, "title": "Fill Crop Insurance Application", "description": "Submit farmer details, crop type, and land area." },
+      { "step": 3, "title": "Pay Low Premium", "description": "Pay 1.5% to 5% premium based on crop season." },
+      { "step": 4, "title": "Claim on Crop Loss", "description": "Report crop loss within 72 hours and receive claim in bank account." }
+    ],
+    "official_source": "https://pmfby.gov.in/",
+    "tags": ["PMFBY", "Crop Insurance", "Farmer Protection", "Agriculture"]
+  },
+  {
+    "id": "kcc_scheme",
+    "name": "Kisan Credit Card (KCC) Scheme",
+    "ministry": "Ministry of Agriculture and Farmers Welfare",
+    "target_beneficiaries": ["Farmers", "Animal Husbandry Farmers", "Fishermen", "SC", "ST", "OBC", "Women"],
+    "state_or_central": "Central",
+    "description": "Provides affordable credit to farmers for their cultivation and other needs including animal husbandry and fisheries.",
+    "simple_description": "Government scheme giving farmers a credit card with loan up to ₹3 Lakh at just 4% interest rate for farming needs.",
+    "categories": ["SC", "ST", "OBC", "Women", "Minorities", "General", "EWS"],
+    "states": ["All"],
+    "income_limit": 0,
+    "age_min": 18,
+    "age_max": 75,
+    "business_types": ["Agri-allied", "Self-employed"],
+    "support_type": ["Business loan", "Working capital", "Self-employment support"],
+    "max_project_cost": 0,
+    "max_assistance_text": "Credit limit up to ₹3 Lakh at effective 4% interest rate",
+    "benefits": [
+      "Short-term credit limit up to ₹3 Lakh for crop production",
+      "Effective interest rate of only 4% per annum after 3% prompt repayment incentive",
+      "Collateral-free loans up to ₹1.6 Lakh",
+      "Covers crop production, post-harvest expenses, and household needs"
+    ],
+    "simple_benefits": [
+      "Get credit card with ₹3 Lakh limit for farming",
+      "Pay only 4% interest rate if you repay on time",
+      "No collateral required for loans up to ₹1.6 Lakh"
+    ],
+    "required_documents": [
+      "Aadhaar Card",
+      "Land Records / Tenant Agreement",
+      "Passport Size Photographs",
+      "Bank Account Passbook"
+    ],
+    "application_steps": [
+      { "step": 1, "title": "Visit Nearest Bank Branch", "description": "Go to any commercial bank or regional rural bank." },
+      { "step": 2, "title": "Fill KCC Application Form", "description": "Submit personal details, land details, and loan requirement." },
+      { "step": 3, "title": "Bank Verification & Approval", "description": "Bank verifies land records and approves KCC." },
+      { "step": 4, "title": "Receive KCC Card", "description": "Get Kisan Credit Card and withdraw funds as needed." }
+    ],
+    "official_source": "https://www.myscheme.gov.in/schemes/kcc",
+    "tags": ["KCC", "Farmer Credit Card", "Agriculture Loan", "Low Interest"]
+  }
+]
