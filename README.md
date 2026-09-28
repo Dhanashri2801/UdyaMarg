@@ -103,7 +103,7 @@ UdyaMarg was developed as a Smart India Hackathon 2026 project to make governmen
 
 ## 👥 Team
 
-**Team CodeStorm**
+**Team #CodeStorm**
 
 ---
 
